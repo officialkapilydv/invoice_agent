@@ -1,0 +1,50 @@
+{
+  "invoice_number": "7307",
+  "invoice_date": "2025-08-14",
+  "due_date": null,
+  "vendor": {
+    "name": "Two Bulls",
+    "address": null,
+    "tax_id": null,
+    "email": null,
+    "phone": null
+  },
+  "customer": {
+    "name": "patricia ward",
+    "address": "388 FM 2025 Rd., Cleveland, Texas 77328, United States",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "DeStress Plus+ (10oz Bottle)",
+      "quantity": 6.0,
+      "unit_price": 50.0,
+      "tax_rate": 0.0,
+      "total": 300.0
+    }
+  ],
+  "subtotal": 300.0,
+  "tax_total": 0.0,
+  "discount": null,
+  "grand_total": 317.35,
+  "currency": "USD",
+  "payment_terms": null,
+  "notes": null,
+  "confidence_score": 0.85,
+  "validation_warnings": [
+    {
+      "field": "grand_total",
+      "message": "grand_total=317.35 does not match subtotal(300.0) + tax(0.0) - discount(0.0) = 300.00 (difference: 17.35)"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1716,
+    "completion_tokens": 250,
+    "latency_ms": 3720.8,
+    "few_shot_count": 2
+  }
+}

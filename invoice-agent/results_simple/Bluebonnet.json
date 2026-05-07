@@ -1,0 +1,39 @@
+{
+  "invoice_number": "2025-22528-00",
+  "invoice_date": "2025-12-09",
+  "vendor_name": "Bluebonnet Feeds",
+  "customer_name": "Last Chance Feed & More, LLC",
+  "line_items": [
+    {
+      "description": "Equilene Complete 40.00/50lb Bag",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 16.95
+    },
+    {
+      "description": "Horsemans Elite Ultra Fat 80.00/50lb Bag",
+      "item_number": null,
+      "quantity": 80.0,
+      "unit_price": 16.2
+    },
+    {
+      "description": "Intensify Omega Force 80.00/50lb Bag",
+      "item_number": null,
+      "quantity": 80.0,
+      "unit_price": 28.8
+    },
+    {
+      "description": "Intensify Senior Therapy 40.00/50lb Bag",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 24.6
+    },
+    {
+      "description": "Poultry Conditioner 16% GC 40.00/50lb Bag",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 23.15
+    }
+  ],
+  "grand_total": 6002.36
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "input_text": "INVOICE\nInvoice No: INV-2024-001\nDate: 15 Jan 2024\nDue Date: 30 Jan 2024\n\nFrom:\nTech Solutions Pvt Ltd\n123 MG Road, Bangalore 560001\nGSTIN: 29ABCDE1234F1Z5\nEmail: billing@techsolutions.in\n\nTo:\nAcme Corp\n456 Park Street, Mumbai 400001\nGSTIN: 27FGHIJ5678K2Y6\n\nDescription          Qty   Rate      Tax    Amount\nWeb Development       1   50000.00  18%    59000.00\nServer Hosting        3    2000.00  18%     7080.00\n\nSubtotal: 52000.00\nGST (18%): 14040.00\nTotal: 66040.00\n\nPayment Terms: Net 15 days\nBank: HDFC Bank, A/C: 12345678",
+    "output_json": {
+      "invoice_number": "INV-2024-001",
+      "invoice_date": "2024-01-15",
+      "due_date": "2024-01-30",
+      "vendor": {
+        "name": "Tech Solutions Pvt Ltd",
+        "address": "123 MG Road, Bangalore 560001",
+        "tax_id": "29ABCDE1234F1Z5",
+        "email": "billing@techsolutions.in",
+        "phone": null
+      },
+      "customer": {
+        "name": "Acme Corp",
+        "address": "456 Park Street, Mumbai 400001",
+        "tax_id": "27FGHIJ5678K2Y6",
+        "email": null
+      },
+      "line_items": [
+        {
+          "description": "Web Development",
+          "quantity": 1,
+          "unit_price": 50000.00,
+          "tax_rate": 18.0,
+          "total": 59000.00
+        },
+        {
+          "description": "Server Hosting",
+          "quantity": 3,
+          "unit_price": 2000.00,
+          "tax_rate": 18.0,
+          "total": 7080.00
+        }
+      ],
+      "subtotal": 52000.00,
+      "tax_total": 14040.00,
+      "discount": null,
+      "grand_total": 66040.00,
+      "currency": "INR",
+      "payment_terms": "Net 15 days",
+      "notes": "Bank: HDFC Bank, A/C: 12345678",
+      "confidence_score": 0.95
+    },
+    "created_at": "2024-01-20T10:00:00"
+  },
+  {
+    "input_text": "TAX INVOICE\nBill No: 2024/MH/0892\nBill Date: 22-03-2024\n\nSupplier: Rainbow Traders\nAddress: Shop 7, Linking Road, Mumbai\nPhone: 9876543210\n\nCustomer: Mr. Rajesh Kumar\nAddress: 12 Andheri West, Mumbai\n\nItem               Qty    MRP      Disc    GST     Total\nOffice Chair        2    8500     500     1530    18530\nDesk Lamp           5     650       0      292     3542\n\nSub Total: 18750\nDiscount: 500\nGST: 1822\nNet Payable: 20072",
+    "output_json": {
+      "invoice_number": "2024/MH/0892",
+      "invoice_date": "2024-03-22",
+      "due_date": null,
+      "vendor": {
+        "name": "Rainbow Traders",
+        "address": "Shop 7, Linking Road, Mumbai",
+        "tax_id": null,
+        "email": null,
+        "phone": "9876543210"
+      },
+      "customer": {
+        "name": "Mr. Rajesh Kumar",
+        "address": "12 Andheri West, Mumbai",
+        "tax_id": null,
+        "email": null
+      },
+      "line_items": [
+        {
+          "description": "Office Chair",
+          "quantity": 2,
+          "unit_price": 8500,
+          "tax_rate": null,
+          "total": 18530
+        },
+        {
+          "description": "Desk Lamp",
+          "quantity": 5,
+          "unit_price": 650,
+          "tax_rate": null,
+          "total": 3542
+        }
+      ],
+      "subtotal": 18750,
+      "tax_total": 1822,
+      "discount": 500,
+      "grand_total": 20072,
+      "currency": "INR",
+      "payment_terms": null,
+      "notes": null,
+      "confidence_score": 0.88
+    },
+    "created_at": "2024-03-25T14:30:00"
+  }
+]

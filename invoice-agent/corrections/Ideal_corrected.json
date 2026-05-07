@@ -1,0 +1,64 @@
+{
+  "invoice_number": "862803-1",
+  "invoice_date": "2025-12-02",
+  "due_date": null,
+  "vendor": {
+    "name": "IDEAL POULTRY BREEDING FARMS, INC.",
+    "address": "BOX 591, CAMERON, TEXAS 76520",
+    "tax_id": null,
+    "email": "sales@idealpoultry.com",
+    "phone": "(254) 697-6677"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 77328",
+    "tax_id": "8287 H1E",
+    "email": null,
+    "phone": "(281) 593-2456"
+  },
+  "line_items": [
+    {
+      "description": "PRODUCTION RED FEMALES (Poultry)",
+      "quantity": 15.0,
+      "unit_price": 3.50,
+      "tax_rate": null,
+      "total": 52.50
+    },
+    {
+      "description": "BLACK AUSTRALORP FEMALES (Poultry)",
+      "quantity": 15.0,
+      "unit_price": 3.60,
+      "tax_rate": null,
+      "total": 54.00
+    },
+    {
+      "description": "EASTER EGGER FEMALES (Poultry)",
+      "quantity": 15.0,
+      "unit_price": 3.60,
+      "tax_rate": null,
+      "total": 54.00
+    },
+    {
+      "description": "BLUE AUSTRALORP FEMALES (Poultry)",
+      "quantity": 15.0,
+      "unit_price": 4.23,
+      "tax_rate": null,
+      "total": 63.45
+    },
+    {
+      "description": "Shipping Charge",
+      "quantity": 1.0,
+      "unit_price": 10.00,
+      "tax_rate": null,
+      "total": 10.00
+    }
+  ],
+  "subtotal": 233.95,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 233.95,
+  "currency": "USD",
+  "payment_terms": "Already paid (authorized)",
+  "notes": "Customer Account: 8287 H1E | Salesperson: TRICIA | Total poultry count: 60 birds (15+15+15+15) | Customer alternate phone: (832) 445-8748 | Vendor fax: (254) 697-2393 | Vendor website: www.idealpoultryerp.com | NPIP Form: 9-3 I | Health Certifications: U.S. Salmonella Monitored 74-6, U.S. Pullorum-Typhoid Clean 74-6, NPIP Clean | Shipped By: Lesly S | Payment Status: $233.95 has been authorized for payment | TOTAL DUE: $0.00 (already paid)",
+  "confidence_score": 1.0
+}

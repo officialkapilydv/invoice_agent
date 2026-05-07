@@ -1,0 +1,59 @@
+{
+  "invoice_number": "PSI556522",
+  "invoice_date": "2025-12-08",
+  "due_date": "2026-01-07",
+  "vendor": {
+    "name": "Sullivan Supply, Inc.",
+    "address": "35 Industrial Drive, Dunlap, IA 51529",
+    "tax_id": null,
+    "email": null,
+    "phone": null
+  },
+  "customer": {
+    "name": "Last Chance Feed & More, LLC",
+    "address": "388 FM 2025, Cleveland, TX 77328",
+    "tax_id": "LCF5501",
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "Rejuvenate Shampoo, Gallon",
+      "quantity": 2.0,
+      "unit_price": 29.16,
+      "tax_rate": null,
+      "total": 58.32
+    },
+    {
+      "description": "Texas Tea Gallon by Stock Show Secrets",
+      "quantity": 6.0,
+      "unit_price": 36.1,
+      "tax_rate": null,
+      "total": 216.6
+    },
+    {
+      "description": "FedEx Ground",
+      "quantity": 1.0,
+      "unit_price": 111.63,
+      "tax_rate": null,
+      "total": 111.63
+    }
+  ],
+  "subtotal": 386.55,
+  "tax_total": 0.0,
+  "discount": 0.0,
+  "grand_total": 386.55,
+  "currency": "USD",
+  "payment_terms": "Credit Card",
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1814,
+    "completion_tokens": 374,
+    "latency_ms": 18065.4,
+    "few_shot_count": 2
+  }
+}

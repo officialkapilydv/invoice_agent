@@ -1,0 +1,199 @@
+{
+  "invoice_number": "000097245366",
+  "invoice_date": "2024-11-06",
+  "due_date": null,
+  "vendor": {
+    "name": "Purina Mills",
+    "address": "PO Box 64281, St. Paul MN 55164-0281",
+    "tax_id": null,
+    "email": "tward.lastchancefeed@gmail.com",
+    "phone": "(844) 787-4622"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED AND MORE LLC",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 773283739",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "AMPLIFY EQUINE SUPPLEMENT BG",
+      "quantity": 11.0,
+      "unit_price": 46.75,
+      "tax_rate": null,
+      "total": 498.82
+    },
+    {
+      "description": "PUR HORSE TREATS APPL+OAT 15LB BG",
+      "quantity": 10.0,
+      "unit_price": 11.8,
+      "tax_rate": null,
+      "total": 114.46
+    },
+    {
+      "description": "EQUINE SENIOR BG",
+      "quantity": 40.0,
+      "unit_price": 23.33,
+      "tax_rate": null,
+      "total": 905.2
+    },
+    {
+      "description": "EQUINE SENIOR ACTIVE BG",
+      "quantity": 10.0,
+      "unit_price": 24.83,
+      "tax_rate": null,
+      "total": 240.85
+    },
+    {
+      "description": "HS FTRS EDGE FLK 13 DX BG",
+      "quantity": 15.0,
+      "unit_price": 15.23,
+      "tax_rate": null,
+      "total": 221.6
+    },
+    {
+      "description": "FLOCK BLOCK 25LB BK",
+      "quantity": 10.0,
+      "unit_price": 12.42,
+      "tax_rate": null,
+      "total": 120.47
+    },
+    {
+      "description": "GAME FISH CHOW BG",
+      "quantity": 40.0,
+      "unit_price": 32.55,
+      "tax_rate": null,
+      "total": 1262.94
+    },
+    {
+      "description": "HIGH OCTANE DEPTH CHARGE BG",
+      "quantity": 7.0,
+      "unit_price": 22.1,
+      "tax_rate": null,
+      "total": 150.06
+    },
+    {
+      "description": "HIGH OCTANE ULTRA FULL BG",
+      "quantity": 23.0,
+      "unit_price": 20.28,
+      "tax_rate": null,
+      "total": 452.45
+    },
+    {
+      "description": "PURINA GOAT BLOCK BK",
+      "quantity": 10.0,
+      "unit_price": 14.5,
+      "tax_rate": null,
+      "total": 140.65
+    },
+    {
+      "description": "OMOLENE 200 (RT) BG",
+      "quantity": 40.0,
+      "unit_price": 21.7,
+      "tax_rate": null,
+      "total": 841.96
+    },
+    {
+      "description": "PRECON COMPLETE BG",
+      "quantity": 20.0,
+      "unit_price": 15.35,
+      "tax_rate": null,
+      "total": 297.79
+    },
+    {
+      "description": "TC BALANCER GOLD 501140 BG",
+      "quantity": 5.0,
+      "unit_price": 38.15,
+      "tax_rate": null,
+      "total": 185.03
+    },
+    {
+      "description": "TC LITE PELLET 500600 BG",
+      "quantity": 15.0,
+      "unit_price": 26.35,
+      "tax_rate": null,
+      "total": 383.39
+    },
+    {
+      "description": "TC SENIOR 500464 BG",
+      "quantity": 10.0,
+      "unit_price": 26.35,
+      "tax_rate": null,
+      "total": 255.6
+    },
+    {
+      "description": "PREMIUM DEER BLOCK BK",
+      "quantity": 10.0,
+      "unit_price": 11.27,
+      "tax_rate": null,
+      "total": 109.32
+    },
+    {
+      "description": "CA ALL STOCK SWEET TX 12 BG",
+      "quantity": 20.0,
+      "unit_price": 11.03,
+      "tax_rate": null,
+      "total": 213.98
+    },
+    {
+      "description": "DAIRY SPEC B16 CRSE BG",
+      "quantity": 20.0,
+      "unit_price": 11.35,
+      "tax_rate": null,
+      "total": 220.19
+    },
+    {
+      "description": "PUR DEWORMER SUPP FBZ226 BG",
+      "quantity": 2.0,
+      "unit_price": 26.33,
+      "tax_rate": null,
+      "total": 51.08
+    },
+    {
+      "description": "HIGH OCTANE FITTER 35 BG",
+      "quantity": 5.0,
+      "unit_price": 47.5,
+      "tax_rate": null,
+      "total": 230.38
+    },
+    {
+      "description": "HIGH OCTANE FITTER 52 BG",
+      "quantity": 3.0,
+      "unit_price": 47.38,
+      "tax_rate": null,
+      "total": 137.88
+    },
+    {
+      "description": "FLK RAISER CRUMBLE 50LB BG",
+      "quantity": 10.0,
+      "unit_price": 20.03,
+      "tax_rate": null,
+      "total": 194.29
+    },
+    {
+      "description": "HANDLING FEE EA",
+      "quantity": 216.0,
+      "unit_price": 0.4,
+      "tax_rate": null,
+      "total": 86.4
+    }
+  ],
+  "subtotal": 7314.79,
+  "tax_total": null,
+  "discount": 2.0,
+  "grand_total": 7314.79,
+  "currency": "USD",
+  "payment_terms": "The amount due will be drafted on the next business day from date of invoice.",
+  "notes": "Finance charges will be assessed on past due invoices at 18.000% annual rate or the maximum rate permitted by applicable law, whichever is less.",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 4,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 4719,
+    "completion_tokens": 1460,
+    "latency_ms": 21274.1,
+    "few_shot_count": 2
+  }
+}

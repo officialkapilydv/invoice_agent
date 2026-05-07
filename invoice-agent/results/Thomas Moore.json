@@ -1,0 +1,113 @@
+{
+  "invoice_number": "31218",
+  "invoice_date": "2025-12-08",
+  "due_date": null,
+  "vendor": {
+    "name": "Thomas Moore Feed, LLC",
+    "address": "7963 Allen Farm Road",
+    "tax_id": null,
+    "email": null,
+    "phone": "281-593-2456"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE LLC",
+    "address": "388 FM 2025, CLEVELAND, TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "PASTURE CUBE 20% AN",
+      "quantity": 280.0,
+      "unit_price": 8.75,
+      "tax_rate": null,
+      "total": 2450.0
+    },
+    {
+      "description": "HEN SCRATCH",
+      "quantity": 80.0,
+      "unit_price": 9.35,
+      "tax_rate": null,
+      "total": 748.0
+    },
+    {
+      "description": "TMF BLACK OIL SUNFLOWER",
+      "quantity": 5.0,
+      "unit_price": 22.15,
+      "tax_rate": null,
+      "total": 110.75
+    },
+    {
+      "description": "MOORE 12-8 HORSE PELLET",
+      "quantity": 120.0,
+      "unit_price": 11.95,
+      "tax_rate": null,
+      "total": 1434.0
+    },
+    {
+      "description": "MOORE POWER 14-10 HORSE",
+      "quantity": 40.0,
+      "unit_price": 13.95,
+      "tax_rate": null,
+      "total": 558.0
+    },
+    {
+      "description": "SCRATCH N' MOORE",
+      "quantity": 40.0,
+      "unit_price": 12.95,
+      "tax_rate": null,
+      "total": 518.0
+    },
+    {
+      "description": "WHOLE COTTONSEED",
+      "quantity": 50.0,
+      "unit_price": 12.2,
+      "tax_rate": null,
+      "total": 610.0
+    },
+    {
+      "description": "PROMOTION $1 OFF COTTONSEED",
+      "quantity": 50.0,
+      "unit_price": -1.0,
+      "tax_rate": null,
+      "total": -50.0
+    },
+    {
+      "description": "MOORE GUINEA PIG 5LB",
+      "quantity": 1.0,
+      "unit_price": 24.0,
+      "tax_rate": null,
+      "total": 24.0
+    },
+    {
+      "description": "FREIGHT",
+      "quantity": 1.0,
+      "unit_price": 378.0,
+      "tax_rate": null,
+      "total": 378.0
+    }
+  ],
+  "subtotal": 6402.75,
+  "tax_total": null,
+  "discount": 192.08,
+  "grand_total": 6588.67,
+  "currency": "USD",
+  "payment_terms": "3% ACH",
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [
+    {
+      "field": "subtotal",
+      "message": "Sum of line items (6780.75) differs from subtotal (6402.75) by 378.00"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1996,
+    "completion_tokens": 727,
+    "latency_ms": 13803.6,
+    "few_shot_count": 2
+  }
+}

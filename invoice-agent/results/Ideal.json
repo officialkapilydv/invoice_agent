@@ -1,0 +1,80 @@
+{
+  "invoice_number": "862803-1",
+  "invoice_date": null,
+  "due_date": null,
+  "vendor": {
+    "name": "POULTRY BREEDING FARMS. ING.",
+    "address": "POXS91 \" CAMERON, TEXAS 76520",
+    "tax_id": null,
+    "email": "Sales@idealpoultry.com",
+    "phone": "(254) 697-6677"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "PRODUCTION RED FEMALES",
+      "quantity": null,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": null
+    },
+    {
+      "description": "BLACK AUSTRALORP FEMALES",
+      "quantity": null,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": null
+    },
+    {
+      "description": "EASTER EGGER FEMALES",
+      "quantity": null,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": null
+    },
+    {
+      "description": "BLUE AUSTRALORP FEMALES",
+      "quantity": null,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": null
+    },
+    {
+      "description": "Poultry",
+      "quantity": 60.0,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": null
+    },
+    {
+      "description": "Shipping Charge",
+      "quantity": null,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": null
+    }
+  ],
+  "subtotal": null,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": 233.95,
+  "currency": "USD",
+  "payment_terms": null,
+  "notes": null,
+  "confidence_score": 0.62,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": true,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1757,
+    "completion_tokens": 469,
+    "latency_ms": 1078.0,
+    "few_shot_count": 2
+  }
+}

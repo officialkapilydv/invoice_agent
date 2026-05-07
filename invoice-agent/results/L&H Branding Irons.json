@@ -1,0 +1,50 @@
+{
+  "invoice_number": "261008",
+  "invoice_date": "2025-10-22",
+  "due_date": null,
+  "vendor": {
+    "name": null,
+    "address": null,
+    "tax_id": null,
+    "email": null,
+    "phone": null
+  },
+  "customer": {
+    "name": "Last Chance Feed",
+    "address": "388 FM 2025, Cleveland, TX 77328, USA",
+    "tax_id": null,
+    "email": "tward.lastchancefeed@gmail.com"
+  },
+  "line_items": [
+    {
+      "description": "Electric Branding Iron",
+      "quantity": 1.0,
+      "unit_price": 146.25,
+      "tax_rate": null,
+      "total": 146.25
+    }
+  ],
+  "subtotal": 146.25,
+  "tax_total": 0.0,
+  "discount": null,
+  "grand_total": 178.5,
+  "currency": "USD",
+  "payment_terms": "Net 30",
+  "notes": "DISCLAIMER: 45 DAYS AFTER THE FULL AMOUNT IS DUE A SERVICE CHARGE OF 1 1/2% PER MONTH US Dollar (WHICH IS AN ANNUAL PERCENTAGE RATE OF 18%) WILL BE APPLIED TO THE PAST DUE AMOUNT.",
+  "confidence_score": 0.85,
+  "validation_warnings": [
+    {
+      "field": "grand_total",
+      "message": "grand_total=178.5 does not match subtotal(146.25) + tax(0.0) - discount(0.0) = 146.25 (difference: 32.25)"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1840,
+    "completion_tokens": 308,
+    "latency_ms": 26969.1,
+    "few_shot_count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "invoice_number": "7307",
+  "invoice_date": "2025-08-14",
+  "vendor_name": "Two Bulls",
+  "customer_name": "patricia ward",
+  "line_items": [
+    {
+      "description": "DeStress Plus+",
+      "item_number": null,
+      "quantity": 6.0,
+      "unit_price": 50.0
+    }
+  ],
+  "grand_total": 317.35
+}

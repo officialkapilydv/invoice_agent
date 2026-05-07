@@ -1,0 +1,208 @@
+{
+  "invoice_number": "31852",
+  "invoice_date": "2025-07-16",
+  "due_date": null,
+  "vendor": {
+    "name": "Lone Star Ropes",
+    "address": "213 Lanely Rd, Buffalo, TX 75831",
+    "tax_id": null,
+    "email": "info@lsropes.com",
+    "phone": "(903) 322-2516"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More, Llc",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "The Lone Star Frio Head Rope-XXS",
+      "quantity": 2.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 64.0
+    },
+    {
+      "description": "The Lone Star Frio Head Rope - XS",
+      "quantity": 4.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 128.0
+    },
+    {
+      "description": "The Lone Star Frio Head Rope - S",
+      "quantity": 4.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 128.0
+    },
+    {
+      "description": "The Lone Star Frio HeelRope-MS",
+      "quantity": 1.0,
+      "unit_price": 34.0,
+      "tax_rate": null,
+      "total": 34.0
+    },
+    {
+      "description": "The Lone Star Frio Heel Rope - M",
+      "quantity": 1.0,
+      "unit_price": 34.0,
+      "tax_rate": null,
+      "total": 34.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / XXS",
+      "quantity": 2.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 64.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / XS",
+      "quantity": 4.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 128.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST/S",
+      "quantity": 4.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 128.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - MX/XXS",
+      "quantity": 1.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - MX/ XS",
+      "quantity": 1.0,
+      "unit_price": 32.0,
+      "tax_rate": null,
+      "total": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Heel Rope-ST/MS",
+      "quantity": 1.0,
+      "unit_price": 34.0,
+      "tax_rate": null,
+      "total": 34.0
+    },
+    {
+      "description": "The Lone Star Helix Heel Rope- ST/M",
+      "quantity": 1.0,
+      "unit_price": 34.0,
+      "tax_rate": null,
+      "total": 34.0
+    },
+    {
+      "description": "The Lone Star Bomb Head Rope-XXS",
+      "quantity": 4.0,
+      "unit_price": 29.0,
+      "tax_rate": null,
+      "total": 116.0
+    },
+    {
+      "description": "The Lone Star Bomb Head Rope - XS",
+      "quantity": 1.0,
+      "unit_price": 29.0,
+      "tax_rate": null,
+      "total": 29.0
+    },
+    {
+      "description": "The Lone Star RanchRope-Poly-ST",
+      "quantity": 5.0,
+      "unit_price": 35.0,
+      "tax_rate": null,
+      "total": 175.0
+    },
+    {
+      "description": "The Lone Star Pink Caddy Breakaway Rope - LT",
+      "quantity": 2.0,
+      "unit_price": 30.0,
+      "tax_rate": null,
+      "total": 60.0
+    },
+    {
+      "description": "The Lone Star Pink Caddy Breakaway Rope-ST",
+      "quantity": 2.0,
+      "unit_price": 30.0,
+      "tax_rate": null,
+      "total": 60.0
+    },
+    {
+      "description": "The Lone Star Win Breakaway Rope-9.5",
+      "quantity": 2.0,
+      "unit_price": 30.0,
+      "tax_rate": null,
+      "total": 60.0
+    },
+    {
+      "description": "The Lone Star Win Breakaway Rope - 10",
+      "quantity": 2.0,
+      "unit_price": 30.0,
+      "tax_rate": null,
+      "total": 60.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Blue",
+      "quantity": 2.0,
+      "unit_price": 20.0,
+      "tax_rate": null,
+      "total": 40.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Green",
+      "quantity": 2.0,
+      "unit_price": 20.0,
+      "tax_rate": null,
+      "total": 40.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Pink",
+      "quantity": 2.0,
+      "unit_price": 20.0,
+      "tax_rate": null,
+      "total": 40.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Orange",
+      "quantity": 2.0,
+      "unit_price": 20.0,
+      "tax_rate": null,
+      "total": 40.0
+    }
+  ],
+  "subtotal": 1473.0,
+  "tax_total": 0.0,
+  "discount": null,
+  "grand_total": 1553.82,
+  "currency": "USD",
+  "payment_terms": null,
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [
+    {
+      "field": "grand_total",
+      "message": "grand_total=1553.82 does not match subtotal(1473.0) + tax(0.0) - discount(0.0) = 1473.00 (difference: 80.82)"
+    },
+    {
+      "field": "subtotal",
+      "message": "Sum of line items (1560.00) differs from subtotal (1473.0) by 87.00"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": true,
+    "page_count": 4,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2433,
+    "completion_tokens": 1452,
+    "latency_ms": 2647.5,
+    "few_shot_count": 2
+  }
+}

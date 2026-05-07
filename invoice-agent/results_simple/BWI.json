@@ -1,0 +1,57 @@
+{
+  "invoice_number": "19097263",
+  "invoice_date": "2025-05-18",
+  "vendor_name": "BWI Companies, Inc.",
+  "customer_name": "LAST CHANCE FEED & MORE LLC",
+  "line_items": [
+    {
+      "description": "Pea, Cream 40 - 5 lb",
+      "item_number": "GS3555",
+      "quantity": 2.0,
+      "unit_price": 20.46
+    },
+    {
+      "description": "Okra, Cowhorn - 5 lb",
+      "item_number": "GS3035",
+      "quantity": 2.0,
+      "unit_price": 23.92
+    },
+    {
+      "description": "Watermelon, Charleston Grey - 1 lb",
+      "item_number": "GS711",
+      "quantity": 2.0,
+      "unit_price": 15.8
+    },
+    {
+      "description": "Watermelon, Black Diamond - 1 lb",
+      "item_number": "GS723",
+      "quantity": 2.0,
+      "unit_price": 14.95
+    },
+    {
+      "description": "Squash, Zucchini Dark Green - 1 lb",
+      "item_number": "GS506",
+      "quantity": 3.0,
+      "unit_price": 11.67
+    },
+    {
+      "description": "Premium Alfalfa Timothy Pellets - 40 lb",
+      "item_number": "SW157530101",
+      "quantity": 20.0,
+      "unit_price": 21.02
+    },
+    {
+      "description": "Iron & Clay Peas - 50 lb",
+      "item_number": "FS121",
+      "quantity": 2.0,
+      "unit_price": 43.93
+    },
+    {
+      "description": "FUEL Surcharge",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 14.94
+    }
+  ],
+  "grand_total": null
+}

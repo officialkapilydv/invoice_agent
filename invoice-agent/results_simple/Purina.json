@@ -1,0 +1,147 @@
+{
+  "invoice_number": "000097245366",
+  "invoice_date": "2024-11-06",
+  "vendor_name": "PURINA ANIMAL NUTRITION LLC",
+  "customer_name": "LAST CHANCE FEED AND MORE LLC",
+  "line_items": [
+    {
+      "description": "AMPLIFY EQUINE SUPPLEMENT BG",
+      "item_number": "3004870-706",
+      "quantity": 11.0,
+      "unit_price": 46.75
+    },
+    {
+      "description": "PUR HORSE TREATS APPL+OAT 15LB BG",
+      "item_number": "3003259-742",
+      "quantity": 10.0,
+      "unit_price": 11.8
+    },
+    {
+      "description": "EQUINE SENIOR BG",
+      "item_number": "3006848-506",
+      "quantity": 40.0,
+      "unit_price": 23.33
+    },
+    {
+      "description": "EQUINE SENIOR ACTIVE BG",
+      "item_number": "3006849-506",
+      "quantity": 10.0,
+      "unit_price": 24.83
+    },
+    {
+      "description": "HS FTRS EDGE FLK 13 DX BG",
+      "item_number": "3011976-506",
+      "quantity": 15.0,
+      "unit_price": 15.23
+    },
+    {
+      "description": "FLOCK BLOCK 25LB BK",
+      "item_number": "3003351-603",
+      "quantity": 10.0,
+      "unit_price": 12.42
+    },
+    {
+      "description": "GAME FISH CHOW BG",
+      "item_number": "0001363",
+      "quantity": 40.0,
+      "unit_price": 32.55
+    },
+    {
+      "description": "HIGH OCTANE DEPTH CHARGE BG",
+      "item_number": "3009633-206",
+      "quantity": 7.0,
+      "unit_price": 22.1
+    },
+    {
+      "description": "HIGH OCTANE ULTRA FULL BG",
+      "item_number": "3007535-906",
+      "quantity": 23.0,
+      "unit_price": 20.28
+    },
+    {
+      "description": "PURINA GOAT BLOCK BK",
+      "item_number": "0005388",
+      "quantity": 10.0,
+      "unit_price": 14.5
+    },
+    {
+      "description": "OMOLENE 200 BG",
+      "item_number": "3006185-506",
+      "quantity": 40.0,
+      "unit_price": 21.7
+    },
+    {
+      "description": "PRECON COMPLETE BG",
+      "item_number": "3006237-206",
+      "quantity": 20.0,
+      "unit_price": 15.35
+    },
+    {
+      "description": "TC BALANCER GOLD 501140 BG",
+      "item_number": "3005518-206",
+      "quantity": 5.0,
+      "unit_price": 38.15
+    },
+    {
+      "description": "TC LITE PELLET 500600 BG",
+      "item_number": "3004443-206",
+      "quantity": 15.0,
+      "unit_price": 26.35
+    },
+    {
+      "description": "TC SENIOR 500464 BG",
+      "item_number": "3004440-506",
+      "quantity": 10.0,
+      "unit_price": 26.35
+    },
+    {
+      "description": "PREMIUM DEER BLOCK BK",
+      "item_number": "3003250-612",
+      "quantity": 10.0,
+      "unit_price": 11.27
+    },
+    {
+      "description": "CA ALL STOCK SWEET TX 12 BG",
+      "item_number": "3009503-506",
+      "quantity": 20.0,
+      "unit_price": 11.03
+    },
+    {
+      "description": "DAIRY SPEC B16 CRSE BG",
+      "item_number": "0024380",
+      "quantity": 20.0,
+      "unit_price": 11.35
+    },
+    {
+      "description": "PUR DEWORMER SUPP FBZ226 BG",
+      "item_number": "0042160",
+      "quantity": 2.0,
+      "unit_price": 27.33
+    },
+    {
+      "description": "HIGH OCTANE FITTER 35 BG",
+      "item_number": "3009632-205",
+      "quantity": 5.0,
+      "unit_price": 47.5
+    },
+    {
+      "description": "HIGH OCTANE FITTER 52 BG",
+      "item_number": "3004771-205",
+      "quantity": 3.0,
+      "unit_price": 47.38
+    },
+    {
+      "description": "FLK RAISER CRUMBLE 50LB BG",
+      "item_number": "3003340-306",
+      "quantity": 10.0,
+      "unit_price": 20.03
+    },
+    {
+      "description": "HANDLING FEE EA",
+      "item_number": "NFPCHG",
+      "quantity": 216.0,
+      "unit_price": 0.4
+    }
+  ],
+  "grand_total": 7314.79
+}

@@ -1,0 +1,57 @@
+{
+  "invoice_number": "35845",
+  "invoice_date": "2025-10-15",
+  "vendor_name": "Winter Livestock & Feed",
+  "customer_name": "Last Chance Feed and More LLC",
+  "line_items": [
+    {
+      "description": "Calf Full Body P Sunglo",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 12.0
+    },
+    {
+      "description": "2 The Fullest Sunglo",
+      "item_number": null,
+      "quantity": 2.0,
+      "unit_price": 26.1
+    },
+    {
+      "description": "Calf Developer Sunglo",
+      "item_number": null,
+      "quantity": 20.0,
+      "unit_price": 14.25
+    },
+    {
+      "description": "Calf Finisher Sunglo",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 16.0
+    },
+    {
+      "description": "Full Tank Sunglo",
+      "item_number": null,
+      "quantity": 5.0,
+      "unit_price": 27.0
+    },
+    {
+      "description": "Show Cattle Explosion Bucket Sunglo",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 70.55
+    },
+    {
+      "description": "ACH 2% ACH discount",
+      "item_number": null,
+      "quantity": -0.02,
+      "unit_price": null
+    },
+    {
+      "description": "LTL Shipping",
+      "item_number": null,
+      "quantity": 3.0,
+      "unit_price": 105.0
+    }
+  ],
+  "grand_total": 1911.23
+}

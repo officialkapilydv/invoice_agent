@@ -1,0 +1,59 @@
+{
+  "invoice_number": "INV1676233",
+  "invoice_date": "2025-09-19",
+  "due_date": "2025-09-19",
+  "vendor": {
+    "name": "Heartland Veterinary Pharmacy, LLC",
+    "address": "401 W 33rd St, Hastings NE 68901",
+    "tax_id": null,
+    "email": null,
+    "phone": null
+  },
+  "customer": {
+    "name": "Trisha Ward",
+    "address": "388 FM 2025 rd, Cleveland TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "Pyrantel Pamoate Generic Strongid Liquid - 16oz MWI",
+      "quantity": 12.0,
+      "unit_price": 16.35,
+      "tax_rate": null,
+      "total": 196.2
+    },
+    {
+      "description": "Pyrantel Pamoate Generic Strongid Liquid - 32oz (MWI)",
+      "quantity": 12.0,
+      "unit_price": 39.69,
+      "tax_rate": null,
+      "total": 476.28
+    },
+    {
+      "description": "Credit Card Fee 3%",
+      "quantity": 1.0,
+      "unit_price": 20.17,
+      "tax_rate": null,
+      "total": 20.17
+    }
+  ],
+  "subtotal": 692.65,
+  "tax_total": 0.0,
+  "discount": 0.0,
+  "grand_total": 692.65,
+  "currency": "USD",
+  "payment_terms": "Upon receipt",
+  "notes": "No returns after 30 days, or on RX items, opened or used goods.",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1814,
+    "completion_tokens": 401,
+    "latency_ms": 896.8,
+    "few_shot_count": 2
+  }
+}

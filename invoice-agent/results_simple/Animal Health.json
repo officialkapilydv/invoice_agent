@@ -1,0 +1,21 @@
+{
+  "invoice_number": "9016092071",
+  "invoice_date": "2025-11-10",
+  "vendor_name": "Animal Health International, Inc",
+  "customer_name": "Last Chance Feed and More",
+  "line_items": [
+    {
+      "description": "Adams Plus Flea+Tick Carpet Powder 16oz",
+      "item_number": null,
+      "quantity": 2.0,
+      "unit_price": 7.56
+    },
+    {
+      "description": "Noromectin 1% Inj 500ml",
+      "item_number": null,
+      "quantity": 4.0,
+      "unit_price": 59.82
+    }
+  ],
+  "grand_total": 254.4
+}

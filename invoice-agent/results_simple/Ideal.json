@@ -1,0 +1,39 @@
+{
+  "invoice_number": "862803-1",
+  "invoice_date": "2025-12-02",
+  "vendor_name": "IDEAL POULTRY BREEDING FARMS, INC.",
+  "customer_name": "LAST CHANCE FEED",
+  "line_items": [
+    {
+      "description": "PRODUCTION RED FEMALES",
+      "item_number": null,
+      "quantity": 15.0,
+      "unit_price": 3.5
+    },
+    {
+      "description": "BLACK AUSTRALORP FEMALES",
+      "item_number": null,
+      "quantity": 15.0,
+      "unit_price": 3.6
+    },
+    {
+      "description": "EASTER EGGER FEMALES",
+      "item_number": null,
+      "quantity": 15.0,
+      "unit_price": 3.6
+    },
+    {
+      "description": "BLUE AUSTRALORP FEMALES",
+      "item_number": null,
+      "quantity": 15.0,
+      "unit_price": 4.23
+    },
+    {
+      "description": "Shipping Charge",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 10.0
+    }
+  ],
+  "grand_total": 233.95
+}

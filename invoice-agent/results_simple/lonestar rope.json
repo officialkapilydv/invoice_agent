@@ -1,0 +1,153 @@
+{
+  "invoice_number": "31852",
+  "invoice_date": "2025-07-16",
+  "vendor_name": "Lone Star Ropes",
+  "customer_name": "Last Chance Feed & More, Llc",
+  "line_items": [
+    {
+      "description": "The Lone Star Frio Head Rope - XXS",
+      "item_number": "1010010001",
+      "quantity": 2.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Frio Head Rope - XS",
+      "item_number": "1010020002",
+      "quantity": 4.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Frio Head Rope - S",
+      "item_number": "1010030003",
+      "quantity": 4.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Frio Heel Rope - MS",
+      "item_number": "1020060006",
+      "quantity": 1.0,
+      "unit_price": 34.0
+    },
+    {
+      "description": "The Lone Star Frio Heel Rope - M",
+      "item_number": "1020080008",
+      "quantity": 1.0,
+      "unit_price": 34.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / XXS",
+      "item_number": "H24S32XXS",
+      "quantity": 2.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / XS",
+      "item_number": "H24S32XS",
+      "quantity": 4.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / S",
+      "item_number": "H24S32S",
+      "quantity": 4.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - MX / XXS",
+      "item_number": "H34S32XXS",
+      "quantity": 1.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - MX / XS",
+      "item_number": "H34S32XS",
+      "quantity": 1.0,
+      "unit_price": 32.0
+    },
+    {
+      "description": "The Lone Star Helix Heel Rope - ST / MS",
+      "item_number": "H24S36MS",
+      "quantity": 1.0,
+      "unit_price": 34.0
+    },
+    {
+      "description": "The Lone Star Helix Heel Rope - ST / M",
+      "item_number": "H24S36MD",
+      "quantity": 1.0,
+      "unit_price": 34.0
+    },
+    {
+      "description": "The Lone Star Bomb Head Rope - XXS",
+      "item_number": "B431XXS",
+      "quantity": 1.0,
+      "unit_price": 29.0
+    },
+    {
+      "description": "The Lone Star Bomb Head Rope - XS",
+      "item_number": "B431XS",
+      "quantity": 1.0,
+      "unit_price": 29.0
+    },
+    {
+      "description": "The Lone Star Ranch Rope - Poly - ST",
+      "item_number": "RR4S40P",
+      "quantity": 5.0,
+      "unit_price": 35.0
+    },
+    {
+      "description": "The Lone Star Pink Caddy Breakaway Rope - LT",
+      "item_number": "PCADDY9",
+      "quantity": 2.0,
+      "unit_price": 30.0
+    },
+    {
+      "description": "The Lone Star Pink Caddy Breakaway Rope - ST",
+      "item_number": "PCADDY",
+      "quantity": 2.0,
+      "unit_price": 30.0
+    },
+    {
+      "description": "The Lone Star Win Breakaway Rope - 9.5",
+      "item_number": "WIN9",
+      "quantity": 2.0,
+      "unit_price": 30.0
+    },
+    {
+      "description": "The Lone Star Win Breakaway Rope - 10",
+      "item_number": "WIN10",
+      "quantity": 2.0,
+      "unit_price": 30.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Blue",
+      "item_number": "TOMAHAWK-BLUE",
+      "quantity": 2.0,
+      "unit_price": 20.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Green",
+      "item_number": "TOMAHAWK-GREEN",
+      "quantity": 2.0,
+      "unit_price": 20.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Pink",
+      "item_number": "TOMAHAWK-PINK",
+      "quantity": 2.0,
+      "unit_price": 20.0
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Orange",
+      "item_number": "TOMAHAWK-ORANGE",
+      "quantity": 2.0,
+      "unit_price": 20.0
+    },
+    {
+      "description": "SHIPPING",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 80.82
+    }
+  ],
+  "grand_total": 1553.82
+}

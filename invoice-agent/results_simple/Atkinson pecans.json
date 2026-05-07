@@ -1,0 +1,21 @@
+{
+  "invoice_number": "17938",
+  "invoice_date": "2025-12-10",
+  "vendor_name": "Atkinson Pecan Company, LLC",
+  "customer_name": "Last Chance Feed",
+  "line_items": [
+    {
+      "description": "Wholesale- Pecan Crunch",
+      "item_number": null,
+      "quantity": 30.0,
+      "unit_price": 12.0
+    },
+    {
+      "description": "Wholesale - Pawnee Inshell Pecan",
+      "item_number": null,
+      "quantity": 100.0,
+      "unit_price": 3.5
+    }
+  ],
+  "grand_total": 710.0
+}

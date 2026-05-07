@@ -1,0 +1,153 @@
+{
+  "invoice_number": "SI-276396",
+  "invoice_date": "2025-12-12",
+  "vendor_name": "LONE",
+  "customer_name": "LAST CHANCE FEED & MORE, LLC",
+  "line_items": [
+    {
+      "description": "17% ALL MASH CRUMBLES 50LB Bags",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 10.24
+    },
+    {
+      "description": "LS 17% ALL MASH PELLETS 50LB Bags",
+      "item_number": null,
+      "quantity": 200.0,
+      "unit_price": 10.24
+    },
+    {
+      "description": "RANGE STAR 20% NP CUBES SOLB Bags",
+      "item_number": null,
+      "quantity": 160.0,
+      "unit_price": 9.13
+    },
+    {
+      "description": "BULL & HEIFER DEVELOPER 50LB Bags",
+      "item_number": null,
+      "quantity": 120.0,
+      "unit_price": 9.97
+    },
+    {
+      "description": "20% CHICK STARTER CRUMBLES Bags",
+      "item_number": null,
+      "quantity": 10.0,
+      "unit_price": 5.93
+    },
+    {
+      "description": "GAME BIRD BREEDER-LAYER 50LB Bags",
+      "item_number": null,
+      "quantity": 15.0,
+      "unit_price": 10.91
+    },
+    {
+      "description": "LS GAME BIRD ST.-GROW CR. 5OLB Bags",
+      "item_number": null,
+      "quantity": 5.0,
+      "unit_price": 13.25
+    },
+    {
+      "description": "16% COMMERCIAL RATION 5OLB. Bags",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 10.83
+    },
+    {
+      "description": "LS HEN SCRATCH 25LB Bags",
+      "item_number": null,
+      "quantity": 10.0,
+      "unit_price": 4.65
+    },
+    {
+      "description": "HI-ENERGY RANGE MEAL 50LB Bags",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 8.74
+    },
+    {
+      "description": "12% HI-FAT-CREEP 1/8\" 50LB Bags",
+      "item_number": null,
+      "quantity": 120.0,
+      "unit_price": 8.27
+    },
+    {
+      "description": "LONE STAR HI PRO PLUS 50LB Bags",
+      "item_number": null,
+      "quantity": 5.0,
+      "unit_price": 24.24
+    },
+    {
+      "description": "IMEOW FOR MORE 40LB Bags",
+      "item_number": null,
+      "quantity": 10.0,
+      "unit_price": 20.12
+    },
+    {
+      "description": "L.S. CALF MILK REPLACER 25LB Bags",
+      "item_number": null,
+      "quantity": 3.0,
+      "unit_price": 34.2
+    },
+    {
+      "description": "NUTRI-B0OST 40LB Bags",
+      "item_number": null,
+      "quantity": 5.0,
+      "unit_price": 13.22
+    },
+    {
+      "description": "18% PERFORMANCE PELL. 25LB. Bags",
+      "item_number": null,
+      "quantity": 10.0,
+      "unit_price": 5.97
+    },
+    {
+      "description": "16% POULTRY CONDITION MIX 50# Bags",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 17.86
+    },
+    {
+      "description": "14% POULTRY MAINTENANCE MIX Bags",
+      "item_number": null,
+      "quantity": 40.0,
+      "unit_price": 14.81
+    },
+    {
+      "description": "18% PPEERFORMANCE PELL. 50LB. Bags",
+      "item_number": null,
+      "quantity": 20.0,
+      "unit_price": 11.37
+    },
+    {
+      "description": "STAR PRO MAINT 50LB Bags",
+      "item_number": null,
+      "quantity": 10.0,
+      "unit_price": 24.24
+    },
+    {
+      "description": "Feed Full Pallet Discount",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 90.0
+    },
+    {
+      "description": "Delivery Charge",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 564.69
+    },
+    {
+      "description": "Feed Fuel Surcharge 42%",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 237.03
+    },
+    {
+      "description": "Feed Quantity Discount",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 86.05
+    }
+  ],
+  "grand_total": 10178.77
+}

@@ -1,0 +1,85 @@
+{
+  "invoice_number": "19097263",
+  "invoice_date": "2025-05-18",
+  "due_date": null,
+  "vendor": {
+    "name": "BWI Companies, Inc.",
+    "address": "PO Box 459, Schulenburg, TX 78956-0459",
+    "tax_id": null,
+    "email": null,
+    "phone": "979-743-4581"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE LLC",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 77328 3739",
+    "tax_id": "SLAS025",
+    "email": null,
+    "phone": "(281) 593-2456"
+  },
+  "line_items": [
+    {
+      "description": "Pea, Cream 40 - 5 lb (Item: GS3555, Pack Size: Pk/1)",
+      "quantity": 2.0,
+      "unit_price": 20.46,
+      "tax_rate": null,
+      "total": 40.92
+    },
+    {
+      "description": "Okra, Cowhorn - 5 lb (Item: GS3035, Pack Size: Pk/1)",
+      "quantity": 2.0,
+      "unit_price": 23.92,
+      "tax_rate": null,
+      "total": 47.84
+    },
+    {
+      "description": "Watermelon, Charleston Grey - 1 lb (Item: GS711, Pack Size: Pk/1)",
+      "quantity": 2.0,
+      "unit_price": 15.80,
+      "tax_rate": null,
+      "total": 31.60
+    },
+    {
+      "description": "Watermelon, Black Diamond - 1 lb (Item: GS723, Pack Size: Pk/1)",
+      "quantity": 2.0,
+      "unit_price": 14.95,
+      "tax_rate": null,
+      "total": 29.90
+    },
+    {
+      "description": "Squash, Zucchini Dark Green - 1 lb (Item: GS506, Pack Size: Pk/1)",
+      "quantity": 3.0,
+      "unit_price": 11.67,
+      "tax_rate": null,
+      "total": 35.01
+    },
+    {
+      "description": "Premium Alfalfa Timothy Pellets - 40 lb (Item: SW157530101, Pack Size: Pk/1)",
+      "quantity": 20.0,
+      "unit_price": 21.02,
+      "tax_rate": null,
+      "total": 420.40
+    },
+    {
+      "description": "Iron & Clay Peas - 50 lb (Item: FS121, Pack Size: Pk/1, Lot: 41X460)",
+      "quantity": 2.0,
+      "unit_price": 43.93,
+      "tax_rate": null,
+      "total": 87.86
+    },
+    {
+      "description": "FUEL Surcharge",
+      "quantity": 1.0,
+      "unit_price": 14.94,
+      "tax_rate": null,
+      "total": 14.94
+    }
+  ],
+  "subtotal": 709.47,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": null,
+  "currency": "USD",
+  "payment_terms": "COLLECT ON DELIVERY",
+  "notes": "Order Number: 19097263 | Order Date: 5/14/2025 | Salesperson: 306 | Bill To Code: SLAS025 | Ship To Code: SLAS025 (Stop: 123, Ref: 1-1-SH) | Invoice Emailed: Y | INCOMPLETE INVOICE: Document marked 'Continued on Page 2' but only Page 1 (1 of 2+) is available. grand_total and tax not present in available pages. Page 1 line items total: 709.47 USD",
+  "confidence_score": 0.85
+}

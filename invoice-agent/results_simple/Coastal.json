@@ -1,0 +1,27 @@
+{
+  "invoice_number": "NET 133191",
+  "invoice_date": "2025-07-01",
+  "vendor_name": "COASTAL AGRICULTURAL SUPPLY NO. 306805",
+  "customer_name": "LAST CHANCE FEED & MORE",
+  "line_items": [
+    {
+      "description": "Agrilabs IVERM 1% 500ML",
+      "item_number": null,
+      "quantity": 6.0,
+      "unit_price": 59.64
+    },
+    {
+      "description": "IVERMECTIN 1% Inj. 50ml",
+      "item_number": null,
+      "quantity": 24.0,
+      "unit_price": 28.13
+    },
+    {
+      "description": "*FUEL CHARGE",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 32.0
+    }
+  ],
+  "grand_total": 1064.96
+}

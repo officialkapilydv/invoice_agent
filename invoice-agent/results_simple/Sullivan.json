@@ -1,0 +1,27 @@
+{
+  "invoice_number": "PSI556522",
+  "invoice_date": "2025-12-08",
+  "vendor_name": "Sullivan Supply, Inc.",
+  "customer_name": "Last Chance Feed & More, LLC",
+  "line_items": [
+    {
+      "description": "Rejuvenate Shampoo, Gallon",
+      "item_number": null,
+      "quantity": 2.0,
+      "unit_price": 29.16
+    },
+    {
+      "description": "Texas Tea Gallon by Stock Show Secrets",
+      "item_number": null,
+      "quantity": 6.0,
+      "unit_price": 36.1
+    },
+    {
+      "description": "FedEx Ground",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 111.63
+    }
+  ],
+  "grand_total": 386.55
+}

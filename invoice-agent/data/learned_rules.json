@@ -1,0 +1,62 @@
+{
+  "rules": [
+    {
+      "trigger": "",
+      "rule": "Item identifier fields can appear under various column labels: 'Product Number', 'Item Number', 'Item #', 'Material', 'SKU', 'Item Code', 'Part Number', 'Item ID', 'Product Code', 'Catalog Number'. ALWAYS extract the alphanumeric code from the leftmost column that uniquely identifies each product, regardless of the exact label used. Codes may be numeric (e.g., 2005, 7501), alphanumeric (e.g., 38716-50, B431XS), or letter-based (e.g., DW11T, NFPCHG).",
+      "confidence": 0.95,
+      "support_count": 5,
+      "created_at": "2026-05-07T00:00:00.000000+00:00"
+    },
+    {
+      "trigger": "",
+      "rule": "Always check for a freight or shipping charge and add it as a separate line item if it's not already included in the subtotal",
+      "confidence": 0.9,
+      "support_count": 5,
+      "created_at": "2026-05-06T09:29:24.455006+00:00"
+    },
+    {
+      "trigger": "",
+      "rule": "Verify the vendor name against the PDF content, especially when the vendor name is in a stylized logo or footer",
+      "confidence": 0.8,
+      "support_count": 4,
+      "created_at": "2026-05-06T09:29:24.455026+00:00"
+    },
+    {
+      "trigger": "",
+      "rule": "Check for missing or truncated line item descriptions and restore any missing information, such as pack sizes, product details, or item numbers",
+      "confidence": 0.8,
+      "support_count": 4,
+      "created_at": "2026-05-06T09:29:24.455036+00:00"
+    },
+    {
+      "trigger": "Bryant Grain",
+      "rule": "Ignore the left '1' indicator in the header when extracting the invoice number",
+      "confidence": 0.9,
+      "support_count": 1,
+      "created_at": "2026-05-06T09:29:24.455045+00:00"
+    },
+    {
+      "trigger": "ADM",
+      "rule": "Track both pallet discount (line-item level) and ACH discount (invoice level)",
+      "confidence": 0.8,
+      "support_count": 1,
+      "created_at": "2026-05-06T09:29:24.455052+00:00"
+    },
+    {
+      "trigger": "",
+      "rule": "Be cautious of US date format (MM/DD/YYYY) and ensure correct date extraction",
+      "confidence": 0.7,
+      "support_count": 2,
+      "created_at": "2026-05-06T09:29:24.455058+00:00"
+    },
+    {
+      "trigger": "",
+      "rule": "When the PDF is incomplete or only partially available, indicate this in the extraction output and be cautious of potential errors",
+      "confidence": 0.7,
+      "support_count": 2,
+      "created_at": "2026-05-06T09:29:24.455063+00:00"
+    }
+  ],
+  "last_extracted_at": "2026-05-06T09:29:24.455069+00:00",
+  "total_extractions_run": 10
+}

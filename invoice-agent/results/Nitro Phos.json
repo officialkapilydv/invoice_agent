@@ -1,0 +1,57 @@
+{
+  "invoice_number": "306996",
+  "invoice_date": "2025-12-09",
+  "due_date": "2025-12-11",
+  "vendor": {
+    "name": "Nitro-Phos Fertilizers, Inc.",
+    "address": "P.O. BOX 1356, HOUSTON, TX 77251",
+    "tax_id": null,
+    "email": null,
+    "phone": "713-228-1868"
+  },
+  "customer": {
+    "name": "Last Chance Feed and More",
+    "address": "388 FM2025 Rd., CLEVELAND, TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "ANIMAL BEDDING PELLETS .95CUFT 50/PAL",
+      "quantity": 50.0,
+      "unit_price": 5.15,
+      "tax_rate": null,
+      "total": 257.5
+    },
+    {
+      "description": "COATED CRIMSON CLOVER SEED 50LB 40/PAL",
+      "quantity": 2.0,
+      "unit_price": 44.61,
+      "tax_rate": null,
+      "total": 89.22
+    }
+  ],
+  "subtotal": 346.72,
+  "tax_total": 0.0,
+  "discount": null,
+  "grand_total": 354.07,
+  "currency": "USD",
+  "payment_terms": "COD",
+  "notes": "Fuel Surcharge: 2.12%, Credit Card Surcharge: 3.10%",
+  "confidence_score": 0.92,
+  "validation_warnings": [
+    {
+      "field": "grand_total",
+      "message": "grand_total=354.07 does not match subtotal(346.72) + tax(0.0) - discount(0.0) = 346.72 (difference: 7.35)"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1896,
+    "completion_tokens": 370,
+    "latency_ms": 16971.9,
+    "few_shot_count": 2
+  }
+}

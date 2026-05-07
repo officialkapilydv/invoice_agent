@@ -1,0 +1,92 @@
+{
+  "invoice_number": "295943",
+  "invoice_date": "2025-12-02",
+  "due_date": "2025-12-04",
+  "vendor": {
+    "name": "CARGILL ANIMAL NUTRITION",
+    "address": "PO BOX 842621, DALLAS TX 75284-2621",
+    "tax_id": null,
+    "email": null,
+    "phone": "800-392-3350"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED AND MORE",
+    "address": "388 FM 2025 RD, CLEVELAND TX 77328",
+    "tax_id": "801540",
+    "email": null,
+    "phone": null
+  },
+  "line_items": [
+    {
+      "description": "TRUE HI-ENERGY 24-20 DOG 50# MR 50P (Item: 38716-50, UOM: BAG, Size: 2000, Weight: 40, Net Price: $30.79 after discounts)",
+      "quantity": 40.0,
+      "unit_price": 32.87,
+      "tax_rate": null,
+      "total": 1314.80
+    },
+    {
+      "description": "RR GOLDEN DEER NUGGET MR 40P (Item: 45011, UOM: BAG, Size: 400, Weight: 10, Net Price: $15.03 after discounts)",
+      "quantity": 10.0,
+      "unit_price": 15.90,
+      "tax_rate": null,
+      "total": 159.00
+    },
+    {
+      "description": "NW ALL FLOCK PL 40# MP 40P (Item: 91594-40, UOM: BAG, Size: 3200, Weight: 80, Net Price: $15.02 after discounts)",
+      "quantity": 80.0,
+      "unit_price": 16.20,
+      "tax_rate": null,
+      "total": 1296.00
+    },
+    {
+      "description": "PROFORCE SENIOR TX 50P (Item: 94202, UOM: BAG, Size: 2000, Weight: 40, Net Price: $24.58 after discounts)",
+      "quantity": 40.0,
+      "unit_price": 26.40,
+      "tax_rate": null,
+      "total": 1056.00
+    },
+    {
+      "description": "SAFECHOICE SPECIAL CARE PL 50P (Item: 94510, UOM: BAG, Size: 500, Weight: 10, Net Price: $21.41 after discounts)",
+      "quantity": 10.0,
+      "unit_price": 22.60,
+      "tax_rate": null,
+      "total": 226.00
+    },
+    {
+      "description": "SAFECHOICE SENIOR TX 50P (Item: 94511, UOM: BAG, Size: 1250, Weight: 25, Net Price: $22.37 after discounts)",
+      "quantity": 25.0,
+      "unit_price": 23.60,
+      "tax_rate": null,
+      "total": 590.00
+    },
+    {
+      "description": "NUTRENA HI PRO SCRATCH 50LB TX 50P (Item: 95268-50, UOM: BAG, Size: 28000, Weight: 560, Net Price: $11.90 after discounts)",
+      "quantity": 560.0,
+      "unit_price": 13.20,
+      "tax_rate": null,
+      "total": 7392.00
+    },
+    {
+      "description": "CF EGG PRODUCER PELLET 50# SP 50P (Item: 95351, UOM: BAG, Size: 6000, Weight: 120, Net Price: $12.92 after discounts)",
+      "quantity": 120.0,
+      "unit_price": 14.26,
+      "tax_rate": null,
+      "total": 1711.20
+    },
+    {
+      "description": "TRIUMPH SENIOR PL 50P (Item: 96114, UOM: BAG, Size: 750, Weight: 15, Net Price: $15.65 after discounts)",
+      "quantity": 15.0,
+      "unit_price": 16.60,
+      "tax_rate": null,
+      "total": 249.00
+    }
+  ],
+  "subtotal": 13994.00,
+  "tax_total": 0,
+  "discount": 1202.58,
+  "grand_total": 12791.42,
+  "currency": "USD",
+  "payment_terms": "ACH 4% DISCOUNT IN 3 DAYS (Due 12/04/25)",
+  "notes": "Customer Number: 801540 | Location: 48-30-3051 | Total Weight: 44,100 lbs | Discount Breakdown: Pallet Discount -$405.00, Volume Discount -$264.60, Other Promos $0.00, Charges $0.00, ACH Discount -$532.98, Total Discounts -$1,202.58 | Ship Date: 12/01/25 08:00 | Truck: CPU | Trans: COMPANY TRUCK | Pricelist Date: 11/30/25 | Order Comments: BGT RS | Inv Questions: 800-392-3350 | Page count: 2 (page 2 is remittance copy)",
+  "confidence_score": 1.0
+}

@@ -1,0 +1,52 @@
+{
+  "invoice_number": "1606",
+  "invoice_date": "2025-10-17",
+  "due_date": "2025-11-16",
+  "vendor": {
+    "name": "Alfahay LLC",
+    "address": "104 13th Street, Aplington, Iowa 50604, United States",
+    "tax_id": null,
+    "email": "nate@alfahay.net",
+    "phone": "319-240-8197"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More, LLC",
+    "address": "388 FM 2025 Road, Cleveland, Texas 77327, United States",
+    "tax_id": null,
+    "email": "tward.lastchancefeed@gmail.com"
+  },
+  "line_items": [
+    {
+      "description": "Alfahay",
+      "quantity": 336.0,
+      "unit_price": 9.5,
+      "tax_rate": null,
+      "total": 3192.0
+    },
+    {
+      "description": "Shipping",
+      "quantity": 1.0,
+      "unit_price": 1800.0,
+      "tax_rate": null,
+      "total": 1800.0
+    }
+  ],
+  "subtotal": 4992.0,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": 4992.0,
+  "currency": "USD",
+  "payment_terms": "1% convenience fee added the day after due date and every 30 days thereafter",
+  "notes": "Payment options: Paypal, Venmo, check in the mail. 4% credit card fee, 2% bank payment fee.",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 2,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2068,
+    "completion_tokens": 381,
+    "latency_ms": 24194.6,
+    "few_shot_count": 2
+  }
+}

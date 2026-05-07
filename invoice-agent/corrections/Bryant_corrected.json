@@ -1,0 +1,92 @@
+{
+  "invoice_number": "280886",
+  "invoice_date": "2025-01-13",
+  "due_date": null,
+  "vendor": {
+    "name": "BRYANT GRAIN COMPANY, INC.",
+    "address": "P.O. Box 596, Aledo, TX 76008",
+    "tax_id": null,
+    "email": null,
+    "phone": "817-441-9782"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE",
+    "address": "388 FM 2025 ROAD, CLEVELAND TX 77328",
+    "tax_id": null,
+    "email": null,
+    "phone": "281-593-2456"
+  },
+  "line_items": [
+    {
+      "description": "CORN CHOPS (Product Number: 2005, Unit: 50#)",
+      "quantity": 120.0,
+      "unit_price": 8.75,
+      "tax_rate": null,
+      "total": 1050.00
+    },
+    {
+      "description": "ALFALFA CUBES - MINI (Product Number: 7501)",
+      "quantity": 40.0,
+      "unit_price": 18.00,
+      "tax_rate": null,
+      "total": 720.00
+    },
+    {
+      "description": "COTTONSEED HULLS (Product Number: 7513, Unit: 45#)",
+      "quantity": 10.0,
+      "unit_price": 15.20,
+      "tax_rate": null,
+      "total": 152.00
+    },
+    {
+      "description": "EQUINE ENERGY TEXTURED (Product Number: 3005)",
+      "quantity": 80.0,
+      "unit_price": 13.40,
+      "tax_rate": null,
+      "total": 1072.00
+    },
+    {
+      "description": "EAST TEXAS ALL-STOCK-5/32 (Product Number: 4101, PROGRAM: 25, CONTRACT: 3320)",
+      "quantity": 120.0,
+      "unit_price": 8.65,
+      "tax_rate": null,
+      "total": 1038.00
+    },
+    {
+      "description": "22% CHICK-GROW-LAYER-50# (Product Number: 5104-50, Unit: 50#)",
+      "quantity": 80.0,
+      "unit_price": 12.90,
+      "tax_rate": null,
+      "total": 1032.00
+    },
+    {
+      "description": "ALFA-MAX COMPLETE 14-6 (Product Number: 6610, CUSTOM - 5/32)",
+      "quantity": 40.0,
+      "unit_price": 17.50,
+      "tax_rate": null,
+      "total": 700.00
+    },
+    {
+      "description": "WOOD PALLETS (Product Number: 8001)",
+      "quantity": 12.0,
+      "unit_price": 5.00,
+      "tax_rate": null,
+      "total": 60.00
+    },
+    {
+      "description": "11-21.99T WHOLESALE DISC (Product Number: DW11T)",
+      "quantity": -12.20,
+      "unit_price": 3.00,
+      "tax_rate": null,
+      "total": -36.60
+    }
+  ],
+  "subtotal": 5787.40,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 6309.60,
+  "currency": "USD",
+  "payment_terms": "BANK DRAFT",
+  "notes": "Order Number: 281192 | Total Tons: 12.200 | Total Freight Charge: $522.20 (added to subtotal to reach grand total) | Customer PO: DEL WOOD | Sales Rep: BRYANT GRAIN | Customer Bank Draft: 281-659-5973 | Ship Via: WOOD PALLETS",
+  "confidence_score": 1.0
+}

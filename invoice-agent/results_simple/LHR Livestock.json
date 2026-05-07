@@ -1,0 +1,21 @@
+{
+  "invoice_number": "5437",
+  "invoice_date": "2024-09-11",
+  "vendor_name": "LHR Livestock, LLC",
+  "customer_name": "LAST CHANCE FEED STORE, CHANCE WARD",
+  "line_items": [
+    {
+      "description": "Refresh/Dealer - 5LB Refresh",
+      "item_number": null,
+      "quantity": 12.0,
+      "unit_price": 50.0
+    },
+    {
+      "description": "Shipping - Ground Shipping - Ground",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 71.6
+    }
+  ],
+  "grand_total": 671.6
+}

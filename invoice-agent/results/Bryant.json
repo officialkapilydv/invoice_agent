@@ -1,0 +1,106 @@
+{
+  "invoice_number": "1 -280886",
+  "invoice_date": "2025-01-13",
+  "due_date": null,
+  "vendor": {
+    "name": "BRYANT GRAIN COMPANY, INC.",
+    "address": "P.O. Box 596, Aledo, TX 76008",
+    "tax_id": null,
+    "email": null,
+    "phone": "817-441-9782"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE",
+    "address": "388 FM 2025 ROAD, CLEVELAND TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "CORN CHOPS",
+      "quantity": 120.0,
+      "unit_price": 8.75,
+      "tax_rate": null,
+      "total": 1050.0
+    },
+    {
+      "description": "ALFALFA CUBES - MINI",
+      "quantity": 40.0,
+      "unit_price": 18.0,
+      "tax_rate": null,
+      "total": 720.0
+    },
+    {
+      "description": "COTTONSEED HULLS (45#)",
+      "quantity": 10.0,
+      "unit_price": 15.2,
+      "tax_rate": null,
+      "total": 152.0
+    },
+    {
+      "description": "EQUINE ENERGY TEXTURED",
+      "quantity": 80.0,
+      "unit_price": 13.4,
+      "tax_rate": null,
+      "total": 1072.0
+    },
+    {
+      "description": "EAST TEXAS ALL-STOCK-5/32",
+      "quantity": 120.0,
+      "unit_price": 8.65,
+      "tax_rate": null,
+      "total": 1038.0
+    },
+    {
+      "description": "22% CHICK-GROW-LAYER-50#",
+      "quantity": 80.0,
+      "unit_price": 12.9,
+      "tax_rate": null,
+      "total": 1032.0
+    },
+    {
+      "description": "ALFA-MAX COMPLETE 14-6",
+      "quantity": 40.0,
+      "unit_price": 17.5,
+      "tax_rate": null,
+      "total": 700.0
+    },
+    {
+      "description": "WOOD PALLETS",
+      "quantity": 12.0,
+      "unit_price": 5.0,
+      "tax_rate": null,
+      "total": 60.0
+    },
+    {
+      "description": "WHOLESALE DISC",
+      "quantity": 12.2,
+      "unit_price": 3.0,
+      "tax_rate": null,
+      "total": 36.6
+    }
+  ],
+  "subtotal": 6309.6,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": 6731.8,
+  "currency": "USD",
+  "payment_terms": null,
+  "notes": null,
+  "confidence_score": 0.85,
+  "validation_warnings": [
+    {
+      "field": "subtotal",
+      "message": "Sum of line items (5860.60) differs from subtotal (6309.6) by 449.00"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": true,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2136,
+    "completion_tokens": 705,
+    "latency_ms": 1850.2,
+    "few_shot_count": 2
+  }
+}

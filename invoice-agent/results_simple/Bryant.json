@@ -1,0 +1,63 @@
+{
+  "invoice_number": "280886",
+  "invoice_date": "2025-01-13",
+  "vendor_name": "BRYANT GRAIN COMPANY, INC.",
+  "customer_name": "LAST CHANCE FEED & MORE",
+  "line_items": [
+    {
+      "description": "CORN CHOPS",
+      "item_number": "2005",
+      "quantity": 120.0,
+      "unit_price": 8.75
+    },
+    {
+      "description": "ALFALFA CUBES - MINI",
+      "item_number": "7501",
+      "quantity": 40.0,
+      "unit_price": 18.0
+    },
+    {
+      "description": "COTTONSEED HULLS",
+      "item_number": "7513",
+      "quantity": 10.0,
+      "unit_price": 15.2
+    },
+    {
+      "description": "EQUINE ENERGY TEXTURED",
+      "item_number": "3005",
+      "quantity": 80.0,
+      "unit_price": 13.4
+    },
+    {
+      "description": "EAST TEXAS ALL-STOCK-5/32",
+      "item_number": "4101",
+      "quantity": 120.0,
+      "unit_price": 8.65
+    },
+    {
+      "description": "22% CHICK-GROW-LAYER-50#",
+      "item_number": "5104-50",
+      "quantity": 80.0,
+      "unit_price": 12.9
+    },
+    {
+      "description": "ALFA-MAX COMPLETE 14-6",
+      "item_number": "6610",
+      "quantity": 40.0,
+      "unit_price": 17.5
+    },
+    {
+      "description": "WOOD PALLETS",
+      "item_number": "8001",
+      "quantity": 12.0,
+      "unit_price": 5.0
+    },
+    {
+      "description": "11-21.99T WHOLESALE DISC",
+      "item_number": "DW11T",
+      "quantity": -12.2,
+      "unit_price": 3.0
+    }
+  ],
+  "grand_total": 6309.6
+}

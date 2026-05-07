@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV00127922",
+  "invoice_date": "2025-11-14",
+  "vendor_name": "Lyssy & Eckel, Inc.",
+  "customer_name": "Last Chance Feed & More, LLC",
+  "line_items": [
+    {
+      "description": "DEER PELLET 20 2X RUT - 50#",
+      "item_number": "9794",
+      "quantity": 240.0,
+      "unit_price": 11.6
+    },
+    {
+      "description": "PALLETS WOOD",
+      "item_number": "2195",
+      "quantity": 6.0,
+      "unit_price": 13.0
+    },
+    {
+      "description": "FREIGHT",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 330.0
+    }
+  ],
+  "grand_total": 3192.0
+}

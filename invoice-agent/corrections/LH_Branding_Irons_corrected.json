@@ -1,0 +1,43 @@
+{
+  "invoice_number": "261008",
+  "invoice_date": "2025-10-22",
+  "due_date": null,
+  "vendor": {
+    "name": "L&H Branding Irons",
+    "address": "410 6th St SE, P.O. Box 639, Mandan, ND 58554",
+    "tax_id": null,
+    "email": null,
+    "phone": "701-663-9821"
+  },
+  "customer": {
+    "name": "Last Chance Feed",
+    "address": "388 FM 2025, Cleveland TX 77328 USA",
+    "tax_id": "19228834",
+    "email": "tward.lastchancefeed@gmail.com",
+    "phone": "281-659-5973"
+  },
+  "line_items": [
+    {
+      "description": "Electric Branding Iron (Part Number: 0303, Serial Number: 738004, Unit Price: $195.00, Net Unit Price: $146.25 after discount)",
+      "quantity": 1.0,
+      "unit_price": 146.25,
+      "tax_rate": null,
+      "total": 146.25
+    },
+    {
+      "description": "FREIGHT (UPS Ground, Tracking: 1Z5661530395466141)",
+      "quantity": 1.0,
+      "unit_price": 32.25,
+      "tax_rate": null,
+      "total": 32.25
+    }
+  ],
+  "subtotal": 178.50,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 178.50,
+  "currency": "USD",
+  "payment_terms": "Net 30",
+  "notes": "Sales Order: 240960 | Customer Account ID (Sold To): 19228834 | F.O.B.: Origin | Ship Via: UPS Ground | Ship Date: 10/22/2025 | Tracking Number: 1Z5661530395466141 | Vendor Fax: 701-663-0401 | Vendor Website: www.lhbrandingirons.com | DISCLAIMER 1: 45 days after full amount is due, a service charge of 1.5% per month (18% APR) will be applied to past due amount. DISCLAIMER 2: This is to certify that the merchandise listed on this invoice has been produced in accordance with the Fair Labor Standards Act of 1938, as amended. | Original Unit Price: $195.00 (discounted to Net Unit Price: $146.25)",
+  "confidence_score": 1.0
+}

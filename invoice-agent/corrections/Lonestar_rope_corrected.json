@@ -1,0 +1,197 @@
+{
+  "invoice_number": "31852",
+  "invoice_date": "2025-07-16",
+  "due_date": null,
+  "vendor": {
+    "name": "Lone Star Ropes",
+    "address": "213 Lanely Rd, Buffalo, TX 75831",
+    "tax_id": null,
+    "email": "info@lsropes.com",
+    "phone": "(903) 322-2516"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More, Llc",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 77328",
+    "tax_id": null,
+    "email": null,
+    "phone": null
+  },
+  "line_items": [
+    {
+      "description": "The Lone Star Frio Head Rope - XXS (SKU: 1010010001)",
+      "quantity": 2.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 64.00
+    },
+    {
+      "description": "The Lone Star Frio Head Rope - XS (SKU: 1010020002)",
+      "quantity": 4.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 128.00
+    },
+    {
+      "description": "The Lone Star Frio Head Rope - S (SKU: 1010030003)",
+      "quantity": 4.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 128.00
+    },
+    {
+      "description": "The Lone Star Frio Heel Rope - MS (SKU: 1020060006)",
+      "quantity": 1.0,
+      "unit_price": 34.00,
+      "tax_rate": null,
+      "total": 34.00
+    },
+    {
+      "description": "The Lone Star Frio Heel Rope - M (SKU: 1020080008)",
+      "quantity": 1.0,
+      "unit_price": 34.00,
+      "tax_rate": null,
+      "total": 34.00
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / XXS (SKU: H24S32XXS)",
+      "quantity": 2.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 64.00
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / XS (SKU: H24S32XS)",
+      "quantity": 4.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 128.00
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - ST / S (SKU: H24S32S)",
+      "quantity": 4.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 128.00
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - MX / XXS (SKU: H34S32XXS)",
+      "quantity": 1.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 32.00
+    },
+    {
+      "description": "The Lone Star Helix Head Rope - MX / XS (SKU: H34S32XS)",
+      "quantity": 1.0,
+      "unit_price": 32.00,
+      "tax_rate": null,
+      "total": 32.00
+    },
+    {
+      "description": "The Lone Star Helix Heel Rope - ST / MS (SKU: H24S36MS)",
+      "quantity": 1.0,
+      "unit_price": 34.00,
+      "tax_rate": null,
+      "total": 34.00
+    },
+    {
+      "description": "The Lone Star Helix Heel Rope - ST / M (SKU: H24S36MD)",
+      "quantity": 1.0,
+      "unit_price": 34.00,
+      "tax_rate": null,
+      "total": 34.00
+    },
+    {
+      "description": "The Lone Star Bomb Head Rope - XXS (SKU: B431XXS)",
+      "quantity": 1.0,
+      "unit_price": 29.00,
+      "tax_rate": null,
+      "total": 29.00
+    },
+    {
+      "description": "The Lone Star Bomb Head Rope - XS (SKU: B431XS)",
+      "quantity": 1.0,
+      "unit_price": 29.00,
+      "tax_rate": null,
+      "total": 29.00
+    },
+    {
+      "description": "The Lone Star Ranch Rope - Poly - ST (SKU: RR4S40P)",
+      "quantity": 5.0,
+      "unit_price": 35.00,
+      "tax_rate": null,
+      "total": 175.00
+    },
+    {
+      "description": "The Lone Star Pink Caddy Breakaway Rope - LT (SKU: PCADDY9.50)",
+      "quantity": 2.0,
+      "unit_price": 30.00,
+      "tax_rate": null,
+      "total": 60.00
+    },
+    {
+      "description": "The Lone Star Pink Caddy Breakaway Rope - ST (SKU: PCADDY 10.0)",
+      "quantity": 2.0,
+      "unit_price": 30.00,
+      "tax_rate": null,
+      "total": 60.00
+    },
+    {
+      "description": "The Lone Star Win Breakaway Rope - 9.5 (SKU: WIN9.5XS)",
+      "quantity": 2.0,
+      "unit_price": 30.00,
+      "tax_rate": null,
+      "total": 60.00
+    },
+    {
+      "description": "The Lone Star Win Breakaway Rope - 10 (SKU: WIN10.0XS)",
+      "quantity": 2.0,
+      "unit_price": 30.00,
+      "tax_rate": null,
+      "total": 60.00
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Blue (SKU: TOMAHAWK-BLUE)",
+      "quantity": 2.0,
+      "unit_price": 20.00,
+      "tax_rate": null,
+      "total": 40.00
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Green (SKU: TOMAHAWK-GREEN)",
+      "quantity": 2.0,
+      "unit_price": 20.00,
+      "tax_rate": null,
+      "total": 40.00
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Pink (SKU: TOMAHAWK-PINK)",
+      "quantity": 2.0,
+      "unit_price": 20.00,
+      "tax_rate": null,
+      "total": 40.00
+    },
+    {
+      "description": "The Lone Star Tomahawk Youth Rope - Orange (SKU: TOMAHAWK-ORANGE)",
+      "quantity": 2.0,
+      "unit_price": 20.00,
+      "tax_rate": null,
+      "total": 40.00
+    },
+    {
+      "description": "SHIPPING",
+      "quantity": 1.0,
+      "unit_price": 80.82,
+      "tax_rate": null,
+      "total": 80.82
+    }
+  ],
+  "subtotal": 1553.82,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 1553.82,
+  "currency": "USD",
+  "payment_terms": "Visa (Paid)",
+  "notes": "Order Date: July 16, 2025 | Payment Method: Visa | Shipping Method: SHIPPING | Total Pages: 4 (pages 2 and 4 are blank) | Tax Breakdown: Texas State Tax 0%, Leon County Tax 0%, Buffalo City Tax 0% (all zero) | Subtotal before shipping: 1473.00 USD | Shipping: 80.82 USD | Vendor Website: www.lonestarropes.com | Vendor Social Media: Facebook, Instagram, Twitter | Disclaimer: Thanks for your business",
+  "confidence_score": 1.0
+}

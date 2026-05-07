@@ -1,0 +1,21 @@
+{
+  "invoice_number": "1606",
+  "invoice_date": "2025-10-17",
+  "vendor_name": "Alfahay LLC",
+  "customer_name": "Last Chance Feed & More, LLC",
+  "line_items": [
+    {
+      "description": "Alfahay",
+      "item_number": null,
+      "quantity": 336.0,
+      "unit_price": 9.5
+    },
+    {
+      "description": "Shipping",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 1800.0
+    }
+  ],
+  "grand_total": 4992.0
+}

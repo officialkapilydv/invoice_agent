@@ -1,0 +1,150 @@
+{
+  "invoice_number": "242304",
+  "invoice_date": "2025-12-10",
+  "due_date": null,
+  "vendor": {
+    "name": "ALLIED FEEDS, INC.",
+    "address": "208 Hutcheson, Cuero, TX 77954",
+    "tax_id": null,
+    "email": null,
+    "phone": "(361) 275-5711"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE, LLC",
+    "address": "388 FM 2025 RD., CLEVELAND, TEXAS 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "SALES ALLOWANCE",
+      "quantity": -1.0,
+      "unit_price": 800.0,
+      "tax_rate": null,
+      "total": -800.0
+    },
+    {
+      "description": "25% RANGE MEAL",
+      "quantity": 3.975,
+      "unit_price": 301.0,
+      "tax_rate": null,
+      "total": 1196.48
+    },
+    {
+      "description": "BULK BAGS LOADED & RETURNED",
+      "quantity": 4.0,
+      "unit_price": 30.0,
+      "tax_rate": null,
+      "total": 120.0
+    },
+    {
+      "description": "EXCEL FAT & HAPPY",
+      "quantity": 40.0,
+      "unit_price": 13.41,
+      "tax_rate": null,
+      "total": 536.4
+    },
+    {
+      "description": "EXCEL 11.5% FULL & FRESH",
+      "quantity": 50.0,
+      "unit_price": 11.05,
+      "tax_rate": null,
+      "total": 552.5
+    },
+    {
+      "description": "STAGGS EXCEL POULTRY STR-BLUE",
+      "quantity": 10.0,
+      "unit_price": 21.04,
+      "tax_rate": null,
+      "total": 210.4
+    },
+    {
+      "description": "STAGG EXCEL POULTRY GROW (RED)",
+      "quantity": 10.0,
+      "unit_price": 22.28,
+      "tax_rate": null,
+      "total": 222.8
+    },
+    {
+      "description": "16% GOAT & KID MEDICATED",
+      "quantity": 40.0,
+      "unit_price": 10.99,
+      "tax_rate": null,
+      "total": 439.6
+    },
+    {
+      "description": "KATTLE KANDY 12%",
+      "quantity": 280.0,
+      "unit_price": 7.83,
+      "tax_rate": null,
+      "total": 2192.4
+    },
+    {
+      "description": "12.5% LAMB AND EWE TEXTURED",
+      "quantity": 40.0,
+      "unit_price": 12.43,
+      "tax_rate": null,
+      "total": 497.2
+    },
+    {
+      "description": "POSITIVE PUSH PP44 MAG PELLET",
+      "quantity": 5.0,
+      "unit_price": 65.2,
+      "tax_rate": null,
+      "total": 326.0
+    },
+    {
+      "description": "RAMSEY SHOW LAMB/GOAT RATION",
+      "quantity": 20.0,
+      "unit_price": 17.91,
+      "tax_rate": null,
+      "total": 358.2
+    },
+    {
+      "description": "SUPER BEEF DEVELOPER",
+      "quantity": 240.0,
+      "unit_price": 11.92,
+      "tax_rate": null,
+      "total": 2860.8
+    },
+    {
+      "description": "SUPERTONE SENIOR W/ APPLE",
+      "quantity": 40.0,
+      "unit_price": 13.15,
+      "tax_rate": null,
+      "total": 526.0
+    },
+    {
+      "description": "SWEETLIX GOAT MEAT MAKER W/O",
+      "quantity": 5.0,
+      "unit_price": 23.18,
+      "tax_rate": null,
+      "total": 115.9
+    },
+    {
+      "description": "SPECIAL DISCOUNT",
+      "quantity": -9.5,
+      "unit_price": 30.0,
+      "tax_rate": null,
+      "total": -285.0
+    }
+  ],
+  "subtotal": 9069.68,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": 10178.53,
+  "currency": "USD",
+  "payment_terms": "COD",
+  "notes": "THANK YOU. To Receive Credit From Allied Feeds, Inc. All Damage, Short and Invoice Discrepancies Must Be Reported Within Seven Days From Delivery.",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 2,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2752,
+    "completion_tokens": 1073,
+    "latency_ms": 29225.0,
+    "few_shot_count": 2
+  }
+}

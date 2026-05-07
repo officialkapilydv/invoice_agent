@@ -1,0 +1,15 @@
+{
+  "invoice_number": "W10399",
+  "invoice_date": "2024-08-30",
+  "vendor_name": "JOHNNY APPLESEED FEED CO",
+  "customer_name": "LAST CHANCE FEED & MORE",
+  "line_items": [
+    {
+      "description": "BUCK CANDY 4LB",
+      "item_number": null,
+      "quantity": 16.0,
+      "unit_price": 18.95
+    }
+  ],
+  "grand_total": 328.2
+}

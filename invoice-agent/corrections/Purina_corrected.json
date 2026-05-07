@@ -1,0 +1,190 @@
+{
+  "invoice_number": "000097245366",
+  "invoice_date": "2024-11-06",
+  "due_date": null,
+  "vendor": {
+    "name": "PURINA ANIMAL NUTRITION LLC",
+    "address": "Customer Financial Services-Ag Credit MS 5345, PO Box 64281, St. Paul MN 55164-0281",
+    "tax_id": null,
+    "email": null,
+    "phone": "(844) 787-4622"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED AND MORE LLC",
+    "address": "388 FM 2025 RD, CLEVELAND, TX 773283739",
+    "tax_id": "514118",
+    "email": "tward.lastchancefeed@gmail.com",
+    "phone": null
+  },
+  "line_items": [
+    {
+      "description": "AMPLIFY EQUINE SUPPLEMENT BG (Item: 3004870-706, EXTRUDED 50# 112, Unit: BG, List: $46.75, Draft Disc: -$1.40, Net: $45.3475)",
+      "quantity": 11.0,
+      "unit_price": 46.75,
+      "tax_rate": null,
+      "total": 498.82
+    },
+    {
+      "description": "PUR HORSE TREATS APPL+OAT 15LB BG (Item: 3003259-742, EXTRUDED 15# 139, Unit: BG, List: $11.80, Draft Disc: -$0.35, Net: $11.4460)",
+      "quantity": 10.0,
+      "unit_price": 11.80,
+      "tax_rate": null,
+      "total": 114.46
+    },
+    {
+      "description": "EQUINE SENIOR BG (Item: 3006848-506, TEXT 50# 5/32-11/64, Unit: BG, List: $23.33, Draft Disc: -$0.69, Net: $22.6301)",
+      "quantity": 40.0,
+      "unit_price": 23.33,
+      "tax_rate": null,
+      "total": 905.20
+    },
+    {
+      "description": "EQUINE SENIOR ACTIVE BG (Item: 3006849-506, TEXT 50# 5/32-11/64 WET, Unit: BG, List: $24.83, Draft Disc: -$0.74, Net: $24.0851)",
+      "quantity": 10.0,
+      "unit_price": 24.83,
+      "tax_rate": null,
+      "total": 240.85
+    },
+    {
+      "description": "HS FTRS EDGE FLK 13 DX BG (Item: 3011976-506, TEXT 50# 5/32-11/64, Unit: BG, List: $15.23, Draft Disc: -$0.45, Net: $14.7731)",
+      "quantity": 15.0,
+      "unit_price": 15.23,
+      "tax_rate": null,
+      "total": 221.60
+    },
+    {
+      "description": "FLOCK BLOCK 25LB BK (Item: 3003351-603, PRESS BLOCK 25#, Unit: BK, List: $12.42, Draft Disc: -$0.37, Net: $12.0474)",
+      "quantity": 10.0,
+      "unit_price": 12.42,
+      "tax_rate": null,
+      "total": 120.47
+    },
+    {
+      "description": "GAME FISH CHOW BG (Item: 0001363, EXTRUDED 50# 144, Unit: BG, List: $32.55, Draft Disc: -$0.97, Net: $31.5735)",
+      "quantity": 40.0,
+      "unit_price": 32.55,
+      "tax_rate": null,
+      "total": 1262.94
+    },
+    {
+      "description": "HIGH OCTANE DEPTH CHARGE BG (Item: 3009633-206, PELLET 50# 1/8, Unit: BG, List: $22.10, Draft Disc: -$0.66, Net: $21.4370)",
+      "quantity": 7.0,
+      "unit_price": 22.10,
+      "tax_rate": null,
+      "total": 150.06
+    },
+    {
+      "description": "HIGH OCTANE ULTRA FULL BG (Item: 3007535-906, PELLET 50# 5/32-11/64, Unit: BG, List: $20.28, Draft Disc: -$0.60, Net: $19.6716)",
+      "quantity": 23.0,
+      "unit_price": 20.28,
+      "tax_rate": null,
+      "total": 452.45
+    },
+    {
+      "description": "PURINA GOAT BLOCK BK (Item: 0005388, PRESS BLOCK 33.3#, Unit: BK, List: $14.50, Draft Disc: -$0.43, Net: $14.0650)",
+      "quantity": 10.0,
+      "unit_price": 14.50,
+      "tax_rate": null,
+      "total": 140.65
+    },
+    {
+      "description": "OMOLENE 200 (RT) BG (Item: 3006185-506, TEXT 50# 1/8 WET, Unit: BG, List: $21.70, Draft Disc: -$0.65, Net: $21.0490)",
+      "quantity": 40.0,
+      "unit_price": 21.70,
+      "tax_rate": null,
+      "total": 841.96
+    },
+    {
+      "description": "PRECON COMPLETE BG (Item: 3006237-206, PELLET 50# 1/4, Unit: BG, List: $15.35, Draft Disc: -$0.46, Net: $14.8895)",
+      "quantity": 20.0,
+      "unit_price": 15.35,
+      "tax_rate": null,
+      "total": 297.79
+    },
+    {
+      "description": "TC BALANCER GOLD 501140 BG (Item: 3005518-206, PELLET 50# 5/32-11/64, Unit: BG, List: $38.15, Draft Disc: -$1.14, Net: $37.0055)",
+      "quantity": 5.0,
+      "unit_price": 38.15,
+      "tax_rate": null,
+      "total": 185.03
+    },
+    {
+      "description": "TC LITE PELLET 500600 BG (Item: 3004443-206, PELLET 50# 5/32-11/64, Unit: BG, List: $26.35, Draft Disc: -$0.79, Net: $25.5595)",
+      "quantity": 15.0,
+      "unit_price": 26.35,
+      "tax_rate": null,
+      "total": 383.39
+    },
+    {
+      "description": "TC SENIOR 500464 BG (Item: 3004440-506, TEXT 50# 5/32-11/64 WET, Unit: BG, List: $26.35, Draft Disc: -$0.79, Net: $25.5595)",
+      "quantity": 10.0,
+      "unit_price": 26.35,
+      "tax_rate": null,
+      "total": 255.60
+    },
+    {
+      "description": "PREMIUM DEER BLOCK BK (Item: 3003250-612, PRESS BLOCK 20#, Unit: BK, List: $11.27, Draft Disc: -$0.33, Net: $10.9319)",
+      "quantity": 10.0,
+      "unit_price": 11.27,
+      "tax_rate": null,
+      "total": 109.32
+    },
+    {
+      "description": "CA ALL STOCK SWEET TX 12 BG (Item: 3009503-506, TEXT 50# 5/32-11/64, Unit: BG, List: $11.03, Draft Disc: -$0.33, Net: $10.6991)",
+      "quantity": 20.0,
+      "unit_price": 11.03,
+      "tax_rate": null,
+      "total": 213.98
+    },
+    {
+      "description": "DAIRY SPEC B16 CRSE BG (Item: 0024380, TEXT 50# 5/32-11/64, Unit: BG, List: $11.35, Draft Disc: -$0.34, Net: $11.0095)",
+      "quantity": 20.0,
+      "unit_price": 11.35,
+      "tax_rate": null,
+      "total": 220.19
+    },
+    {
+      "description": "PUR DEWORMER SUPP FBZ226 BG (Item: 0042160, PELLET 50# 5/32-11/64, Unit: BG, List: $27.33, Promo Disc: -$1.00 Fall Safe Guard Promo, Draft Disc: -$0.78, Net: $25.5401)",
+      "quantity": 2.0,
+      "unit_price": 27.33,
+      "tax_rate": null,
+      "total": 51.08
+    },
+    {
+      "description": "HIGH OCTANE FITTER 35 BG (Item: 3009632-205, PELLET 40# 1/8, Unit: BG, List: $47.50, Draft Disc: -$1.42, Net: $46.0750)",
+      "quantity": 5.0,
+      "unit_price": 47.50,
+      "tax_rate": null,
+      "total": 230.38
+    },
+    {
+      "description": "HIGH OCTANE FITTER 52 BG (Item: 3004771-205, PELLET 40# 1/8, Unit: BG, List: $47.38, Draft Disc: -$1.42, Net: $45.9586)",
+      "quantity": 3.0,
+      "unit_price": 47.38,
+      "tax_rate": null,
+      "total": 137.88
+    },
+    {
+      "description": "FLK RAISER CRUMBLE 50LB BG (Item: 3003340-306, CRUMBLE 50# 5/32-11/64, Unit: BG, List: $20.03, Draft Disc: -$0.60, Net: $19.4291)",
+      "quantity": 10.0,
+      "unit_price": 20.03,
+      "tax_rate": null,
+      "total": 194.29
+    },
+    {
+      "description": "HANDLING FEE EA (Item: NFPCHG, UNITS PICKED, Unit: EA, List: $0.40, Net: $0.40)",
+      "quantity": 216.0,
+      "unit_price": 0.40,
+      "tax_rate": null,
+      "total": 86.40
+    }
+  ],
+  "subtotal": 7314.79,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 7314.79,
+  "currency": "USD",
+  "payment_terms": "Auto-draft on next business day from invoice date (Late: 18% APR finance charge)",
+  "notes": "Account Number: 514118 | Customer Number: 634441 | Sales Order: 26001189 | Order Date: 10/28/24 | Ship Date: 11/05/24 | Ship Location: SWDC | Transportation Mode: Feed - Delivery | Customer Contact: Trisha Ward (tward.lastchancefeed@gmail.com) | Total Weight: 15,653.30 lbs (7.8266 tons) | Total Pages: 4 | Discount Breakdown: Packaged & Bulk Discounts $0.00, Promotional Discounts $2.00 (Fall Safe Guard Promo on PUR DEWORMER), Other Discounts $0.00, Draft Discounts $223.56, Total Discounts $225.56 | Extended Prices already include all per-item draft discounts | Customer Service: (844) 787-4622 | Vendor Website: www.PurinaMills.com | Note: DO NOT REMIT PAYMENTS to correspondence address - auto-drafted from bank | Disclaimer: Finance charges 18% APR on past due invoices",
+  "confidence_score": 1.0
+}

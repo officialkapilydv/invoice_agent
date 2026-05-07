@@ -1,0 +1,52 @@
+{
+  "invoice_number": "9016092071",
+  "invoice_date": "2025-11-10",
+  "due_date": "2025-12-15",
+  "vendor": {
+    "name": "Animal Health International, Inc",
+    "address": "5620 Snell Dr, San Antonio, TX 78219-3023",
+    "tax_id": "RA0483230",
+    "email": null,
+    "phone": "800-292-5692"
+  },
+  "customer": {
+    "name": "Last Chance Feed and More",
+    "address": "388 FM 2025 Rd, Cleveland, TX 77328-3739",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "Adams Plus Flea+Tick Carpet Powder 16oz",
+      "quantity": 2.0,
+      "unit_price": 7.56,
+      "tax_rate": null,
+      "total": 15.12
+    },
+    {
+      "description": "Noromectin 1% (Ivermectin) Inj 500ml",
+      "quantity": 4.0,
+      "unit_price": 59.82,
+      "tax_rate": null,
+      "total": 239.28
+    }
+  ],
+  "subtotal": 254.4,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": 254.4,
+  "currency": "USD",
+  "payment_terms": "Due 15th 1 month from current",
+  "notes": "All sales are subject to the Standard Terms located at https://www.animalhealthinternational.com/Terms-and-Conditions",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2240,
+    "completion_tokens": 381,
+    "latency_ms": 7111.6,
+    "few_shot_count": 2
+  }
+}

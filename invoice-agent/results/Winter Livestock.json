@@ -1,0 +1,94 @@
+{
+  "invoice_number": "35845",
+  "invoice_date": "2025-10-15",
+  "due_date": "2025-10-18",
+  "vendor": {
+    "name": "Winter Livestock & Feed",
+    "address": "6101 N Radio Rd, El Reno, OK 73036-8700",
+    "tax_id": null,
+    "email": "sam@winterlivestockandfeed.com",
+    "phone": "+1 (405) 550-6616"
+  },
+  "customer": {
+    "name": "Last Chance Feed and More LLC",
+    "address": "388 FM 2025, Cleveland, TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "Calf Full Body P Sunglo",
+      "quantity": 40.0,
+      "unit_price": 12.0,
+      "tax_rate": null,
+      "total": 480.0
+    },
+    {
+      "description": "2 The Fullest Sunglo",
+      "quantity": 2.0,
+      "unit_price": 26.1,
+      "tax_rate": null,
+      "total": 52.2
+    },
+    {
+      "description": "Calf Developer Sunglo",
+      "quantity": 20.0,
+      "unit_price": 14.25,
+      "tax_rate": null,
+      "total": 285.0
+    },
+    {
+      "description": "Calf Finisher Sunglo",
+      "quantity": 40.0,
+      "unit_price": 16.0,
+      "tax_rate": null,
+      "total": 640.0
+    },
+    {
+      "description": "Full Tank Sunglo",
+      "quantity": 5.0,
+      "unit_price": 27.0,
+      "tax_rate": null,
+      "total": 135.0
+    },
+    {
+      "description": "Show Cattle Explosion Bucket Sunglo",
+      "quantity": 1.0,
+      "unit_price": 70.55,
+      "tax_rate": null,
+      "total": 70.55
+    },
+    {
+      "description": "ACH (Next Day Wire) 2% ACH discount",
+      "quantity": -0.02,
+      "unit_price": null,
+      "tax_rate": null,
+      "total": -33.26
+    },
+    {
+      "description": "LTL Shipping",
+      "quantity": 3.0,
+      "unit_price": 105.0,
+      "tax_rate": null,
+      "total": 315.0
+    }
+  ],
+  "subtotal": 1944.49,
+  "tax_total": null,
+  "discount": 33.26,
+  "grand_total": 1911.23,
+  "currency": "USD",
+  "payment_terms": "3 days",
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1915,
+    "completion_tokens": 636,
+    "latency_ms": 11652.9,
+    "few_shot_count": 2
+  }
+}

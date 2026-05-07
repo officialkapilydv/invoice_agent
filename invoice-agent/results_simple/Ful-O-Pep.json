@@ -1,0 +1,111 @@
+{
+  "invoice_number": "242304",
+  "invoice_date": "2025-12-10",
+  "vendor_name": "ALLIED FEEDS, INC. (Ful-O-Pep), Cuero",
+  "customer_name": "LAST CHANCE FEED & MORE, LLC",
+  "line_items": [
+    {
+      "description": "SALES ALLOWANCE",
+      "item_number": "999908",
+      "quantity": -1.0,
+      "unit_price": 800.0
+    },
+    {
+      "description": "25% RANGE MEAL BULK",
+      "item_number": "7260B",
+      "quantity": 3.975,
+      "unit_price": 301.0
+    },
+    {
+      "description": "BULK BAGS LOADED & RETURNED",
+      "item_number": "631",
+      "quantity": 4.0,
+      "unit_price": 30.0
+    },
+    {
+      "description": "EXCEL FAT & HAPPY 50#",
+      "item_number": "7390-BO",
+      "quantity": 40.0,
+      "unit_price": 13.41
+    },
+    {
+      "description": "EXCEL 11.5% FULL & FRESH 40#",
+      "item_number": "736040",
+      "quantity": 50.0,
+      "unit_price": 11.05
+    },
+    {
+      "description": "STAGGS EXCEL POULTRY STR-BLUE 50#",
+      "item_number": "4230-A1",
+      "quantity": 10.0,
+      "unit_price": 21.04
+    },
+    {
+      "description": "STAGG EXCEL POULTRY GROW 50#",
+      "item_number": "4126-A1",
+      "quantity": 10.0,
+      "unit_price": 22.28
+    },
+    {
+      "description": "16% GOAT & KID MEDICATED 50#",
+      "item_number": "9253-DE",
+      "quantity": 40.0,
+      "unit_price": 10.99
+    },
+    {
+      "description": "KATTLE KANDY 12% 50#",
+      "item_number": "7011",
+      "quantity": 280.0,
+      "unit_price": 7.83
+    },
+    {
+      "description": "12.5% LAMB AND EWE TEXTURED 50#",
+      "item_number": "9260",
+      "quantity": 40.0,
+      "unit_price": 12.43
+    },
+    {
+      "description": "POSITIVE PUSH PP44 MAG PELLET 25#",
+      "item_number": "2030",
+      "quantity": 5.0,
+      "unit_price": 65.2
+    },
+    {
+      "description": "RAMSEY SHOW LAMB/GOAT RATION 50#",
+      "item_number": "9320-DX",
+      "quantity": 20.0,
+      "unit_price": 17.91
+    },
+    {
+      "description": "SUPER BEEF DEVELOPER 50#",
+      "item_number": "9773",
+      "quantity": 240.0,
+      "unit_price": 11.92
+    },
+    {
+      "description": "SUPERTONE SENIOR W/ APPLE 50#",
+      "item_number": "8315A",
+      "quantity": 40.0,
+      "unit_price": 13.15
+    },
+    {
+      "description": "SWEETLIX GOAT MEAT MAKER W/O 25#",
+      "item_number": "8870",
+      "quantity": 5.0,
+      "unit_price": 23.18
+    },
+    {
+      "description": "SPECIAL DISCOUNT",
+      "item_number": "10",
+      "quantity": -9.5,
+      "unit_price": 30.0
+    },
+    {
+      "description": "FREIGHT",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 1108.85
+    }
+  ],
+  "grand_total": 10178.53
+}

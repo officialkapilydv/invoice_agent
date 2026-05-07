@@ -1,0 +1,80 @@
+{
+  "invoice_number": "AD027122",
+  "invoice_date": "2025-12-03",
+  "due_date": null,
+  "vendor": {
+    "name": "ROY UMBARGER AND SONS, INC",
+    "address": "186 S. 600 E., FRANKLIN, IN 46131",
+    "tax_id": null,
+    "email": null,
+    "phone": "317-739-6565"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More, LLC",
+    "address": "388 FM 2025 Rd, Cleveland, TX 77328-0000",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "G2051 NEXT LEVEL BAG",
+      "quantity": 50.0,
+      "unit_price": 18.63,
+      "tax_rate": null,
+      "total": 931.5
+    },
+    {
+      "description": "LAMB 17% W/BARLEY BAG",
+      "quantity": 25.0,
+      "unit_price": 16.98,
+      "tax_rate": null,
+      "total": 424.5
+    },
+    {
+      "description": "LAMB 19% BAG",
+      "quantity": 20.0,
+      "unit_price": 17.36,
+      "tax_rate": null,
+      "total": 347.2
+    },
+    {
+      "description": "STAR GLO 50# BAG",
+      "quantity": 4.0,
+      "unit_price": 60.0,
+      "tax_rate": null,
+      "total": 240.0
+    },
+    {
+      "description": "WOOD PALLETS",
+      "quantity": 2.0,
+      "unit_price": 0.0,
+      "tax_rate": null,
+      "total": 0.0
+    },
+    {
+      "description": "DELIVERY LTL",
+      "quantity": 1.0,
+      "unit_price": 655.0,
+      "tax_rate": null,
+      "total": 655.0
+    }
+  ],
+  "subtotal": 2598.2,
+  "tax_total": 0.0,
+  "discount": 68.13,
+  "grand_total": 2530.07,
+  "currency": "USD",
+  "payment_terms": "If paid by 12/08/2025, pay only: $2530.07 (disc of $68.13)",
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2036,
+    "completion_tokens": 544,
+    "latency_ms": 18225.8,
+    "few_shot_count": 2
+  }
+}

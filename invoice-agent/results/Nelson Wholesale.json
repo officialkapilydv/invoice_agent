@@ -1,0 +1,52 @@
+{
+  "invoice_number": "INV252399",
+  "invoice_date": "2025-12-15",
+  "due_date": "2025-12-15",
+  "vendor": {
+    "name": "Nelson Wholesale Service",
+    "address": "P.O. Box 370, Brownwood TX 76804",
+    "tax_id": null,
+    "email": null,
+    "phone": "(325) 643-3636"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More",
+    "address": "388 FM 2025 Road, Cleveland TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "ValuPak Free Orange Bag",
+      "quantity": 2.0,
+      "unit_price": 31.97,
+      "tax_rate": null,
+      "total": 63.94
+    },
+    {
+      "description": "Delivery Fee",
+      "quantity": 1.0,
+      "unit_price": 31.5,
+      "tax_rate": null,
+      "total": 31.5
+    }
+  ],
+  "subtotal": 95.44,
+  "tax_total": 0.0,
+  "discount": 0.0,
+  "grand_total": 95.44,
+  "currency": "USD",
+  "payment_terms": "C.O.D.",
+  "notes": "All credit card payments are subject to a 2% processing fee.",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1802,
+    "completion_tokens": 336,
+    "latency_ms": 10877.0,
+    "few_shot_count": 2
+  }
+}

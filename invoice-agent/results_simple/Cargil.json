@@ -1,0 +1,63 @@
+{
+  "invoice_number": "295943",
+  "invoice_date": "2025-12-02",
+  "vendor_name": "CARGILL ANIMAL NUTRITION",
+  "customer_name": "LAST CHANCE FEED AND MORE",
+  "line_items": [
+    {
+      "description": "TRUE HI-ENERGY 24-20 DOG 50# MR 50P",
+      "item_number": "38716-50",
+      "quantity": 40.0,
+      "unit_price": 32.87
+    },
+    {
+      "description": "RR GOLDEN DEER NUGGET MR 40P",
+      "item_number": "45011",
+      "quantity": 10.0,
+      "unit_price": 15.9
+    },
+    {
+      "description": "NW ALL FLOCK PL 40# MP 40P",
+      "item_number": "91594-40",
+      "quantity": 80.0,
+      "unit_price": 16.2
+    },
+    {
+      "description": "PROFORCE SENIOR TX 50P",
+      "item_number": "94202",
+      "quantity": 40.0,
+      "unit_price": 26.4
+    },
+    {
+      "description": "SAFECHOICE SPECIAL CARE PL 50P",
+      "item_number": "94510",
+      "quantity": 10.0,
+      "unit_price": 22.6
+    },
+    {
+      "description": "SAFECHOICE SENIOR TX 50P",
+      "item_number": "94511",
+      "quantity": 25.0,
+      "unit_price": 23.6
+    },
+    {
+      "description": "NUTRENA HI PRO SCRATCH 50LB TX 50P",
+      "item_number": "95268-50",
+      "quantity": 560.0,
+      "unit_price": 13.2
+    },
+    {
+      "description": "CF EGG PRODUCER PELLET 50# SP 50P",
+      "item_number": "95351",
+      "quantity": 120.0,
+      "unit_price": 14.26
+    },
+    {
+      "description": "TRIUMPH SENIOR PL 50P",
+      "item_number": "96114",
+      "quantity": 15.0,
+      "unit_price": 16.6
+    }
+  ],
+  "grand_total": 12791.42
+}

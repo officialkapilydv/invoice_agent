@@ -1,0 +1,52 @@
+{
+  "invoice_number": "17938",
+  "invoice_date": "2025-12-10",
+  "due_date": "2026-01-09",
+  "vendor": {
+    "name": "Atkinson Pecan Company, LLC",
+    "address": "5993 FM 1301, WHARTON, TX 77488 United States",
+    "tax_id": null,
+    "email": null,
+    "phone": "(281) 593-2456"
+  },
+  "customer": {
+    "name": "Last Chance Feed",
+    "address": "388 fm 2025, Cleveland Texas 77327",
+    "tax_id": null,
+    "email": "tward.lastchancefeed@gmail.com"
+  },
+  "line_items": [
+    {
+      "description": "Wholesale- Pecan Crunch (16oz)",
+      "quantity": 30.0,
+      "unit_price": 12.0,
+      "tax_rate": null,
+      "total": 360.0
+    },
+    {
+      "description": "Wholesale - Pawnee Inshell Pecan",
+      "quantity": 100.0,
+      "unit_price": 3.5,
+      "tax_rate": null,
+      "total": 350.0
+    }
+  ],
+  "subtotal": 710.0,
+  "tax_total": null,
+  "discount": null,
+  "grand_total": 710.0,
+  "currency": "USD",
+  "payment_terms": null,
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 1805,
+    "completion_tokens": 339,
+    "latency_ms": 29967.6,
+    "few_shot_count": 2
+  }
+}

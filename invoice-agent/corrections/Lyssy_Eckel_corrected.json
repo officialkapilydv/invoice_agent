@@ -1,0 +1,50 @@
+{
+  "invoice_number": "INV00127922",
+  "invoice_date": "2025-11-14",
+  "due_date": null,
+  "vendor": {
+    "name": "Lyssy & Eckel, Inc.",
+    "address": "111 East Westmeyer Street, P.O. Box 128, Poth, Texas 78147",
+    "tax_id": null,
+    "email": "www.lefeeds.com",
+    "phone": "(830) 484-3314"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More, LLC",
+    "address": "388 FM 2025 Rd, Cleveland TX 77328",
+    "tax_id": "16980",
+    "email": null,
+    "phone": null
+  },
+  "line_items": [
+    {
+      "description": "DEER PELLET 20 2X RUT - 50# (Item: 9794, Unit: 50# BAG, Ordered: 240, Shipped: 240)",
+      "quantity": 240.0,
+      "unit_price": 11.60,
+      "tax_rate": null,
+      "total": 2784.00
+    },
+    {
+      "description": "PALLETS WOOD (Item: 2195, Unit: EACH, Ordered: 6, Shipped: 6)",
+      "quantity": 6.0,
+      "unit_price": 13.00,
+      "tax_rate": null,
+      "total": 78.00
+    },
+    {
+      "description": "FREIGHT",
+      "quantity": 1.0,
+      "unit_price": 330.00,
+      "tax_rate": null,
+      "total": 330.00
+    }
+  ],
+  "subtotal": 3192.00,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 3192.00,
+  "currency": "USD",
+  "payment_terms": "Net 10th Next Month (Late payment fee: 1.5% per month / 18% APR, minimum 1.00 USD)",
+  "notes": "Customer ID: 16980 | Salesperson ID: BT #1 | Ship Date: 11/11/2025 (3 days before invoice) | Vendor Website: www.lefeeds.com | Remittance Address (Pay To): Ag Pay, LLC, P.O. Box 324, Poth, Texas 78147 | Tax Exemption Reason: EXEMPT FARM USE (Chapter 20, Title 122A, revised Civil Statutes of Texas) | Subtotal before freight: 2862.00 USD | Freight: 330.00 USD | Fuel Surcharge: 0.00 USD | Payment Received: 0.00 USD | All bills due and payable in Poth, Wilson County, Texas | Other vendor offices: George West (361-449-2218), Hondo (830-426-3351), Llano (325-247-4147), Roosevelt (325-446-2604), Roswell (575-244-9550)",
+  "confidence_score": 1.0
+}

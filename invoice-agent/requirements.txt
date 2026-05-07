@@ -1,0 +1,38 @@
+# Pinning strategy: use >= with a known-good floor rather than ==
+# because strict pins on packages with native extensions (pydantic-core,
+# Pillow, scikit-learn) have no pre-built wheels for Python 3.13/3.14 on
+# the older pinned versions, causing source-compilation failures on Windows.
+
+# Core LLM
+groq>=0.9.0
+
+# PDF Parsing
+pdfplumber>=0.11.0
+pdf2image>=1.17.0
+pytesseract>=0.3.13
+Pillow>=10.4.0
+
+# Data Validation
+pydantic>=2.10.0
+
+# Environment Management
+python-dotenv>=1.0.1
+
+# Text similarity (TF-IDF fallback + used in tests)
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Vector database for semantic memory (Layer 1 of learning system)
+# ChromaDB ships its own ONNX-based embedder — no PyTorch needed.
+chromadb>=0.5.0
+
+# CLI
+click>=8.1.7
+
+# Utilities
+tenacity>=8.2.0
+rich>=13.0.0
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.12.0

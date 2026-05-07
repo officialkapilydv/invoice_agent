@@ -1,0 +1,148 @@
+{
+  "invoice_number": "242304",
+  "invoice_date": "2025-12-10",
+  "due_date": null,
+  "vendor": {
+    "name": "ALLIED FEEDS, INC. (Ful-O-Pep), Cuero",
+    "address": "208 Hutcheson, Cuero, TX 77954",
+    "tax_id": null,
+    "email": "www.fulopep.com",
+    "phone": "(361) 275-5711"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE, LLC",
+    "address": "388 FM 2025 RD., CLEVELAND TEXAS 77328",
+    "tax_id": "6025",
+    "email": null,
+    "phone": "(281) 593-2456"
+  },
+  "line_items": [
+    {
+      "description": "SALES ALLOWANCE (Item: 999908, UOM: EACH)",
+      "quantity": -1.0,
+      "unit_price": 800.00,
+      "tax_rate": null,
+      "total": -800.00
+    },
+    {
+      "description": "25% RANGE MEAL BULK (Item: 7260B, UOM: TON, Weight: 7,950 lbs)",
+      "quantity": 3.975,
+      "unit_price": 301.00,
+      "tax_rate": null,
+      "total": 1196.48
+    },
+    {
+      "description": "BULK BAGS LOADED & RETURNED (Item: 631, UOM: EACH)",
+      "quantity": 4.0,
+      "unit_price": 30.00,
+      "tax_rate": null,
+      "total": 120.00
+    },
+    {
+      "description": "EXCEL FAT & HAPPY 50# (Item: 7390-BO, UOM: 50#, Weight: 2,000 lbs)",
+      "quantity": 40.0,
+      "unit_price": 13.41,
+      "tax_rate": null,
+      "total": 536.40
+    },
+    {
+      "description": "EXCEL 11.5% FULL & FRESH 40# (Item: 736040, UOM: 40#, Weight: 2,000 lbs)",
+      "quantity": 50.0,
+      "unit_price": 11.05,
+      "tax_rate": null,
+      "total": 552.50
+    },
+    {
+      "description": "STAGGS EXCEL POULTRY STR-BLUE 50# (Item: 4230-A1, UOM: 50#, Weight: 500 lbs)",
+      "quantity": 10.0,
+      "unit_price": 21.04,
+      "tax_rate": null,
+      "total": 210.40
+    },
+    {
+      "description": "STAGG EXCEL POULTRY GROW (RED) 50# (Item: 4126-A1, UOM: 50#, Weight: 500 lbs)",
+      "quantity": 10.0,
+      "unit_price": 22.28,
+      "tax_rate": null,
+      "total": 222.80
+    },
+    {
+      "description": "16% GOAT & KID MEDICATED 50# (Item: 9253-DE, UOM: 50#, Weight: 2,000 lbs)",
+      "quantity": 40.0,
+      "unit_price": 10.99,
+      "tax_rate": null,
+      "total": 439.60
+    },
+    {
+      "description": "KATTLE KANDY 12% 50# (Item: 7011, UOM: 50#, Weight: 14,000 lbs)",
+      "quantity": 280.0,
+      "unit_price": 7.83,
+      "tax_rate": null,
+      "total": 2192.40
+    },
+    {
+      "description": "12.5% LAMB AND EWE TEXTURED 50# (Item: 9260, UOM: 50#, Weight: 2,000 lbs)",
+      "quantity": 40.0,
+      "unit_price": 12.43,
+      "tax_rate": null,
+      "total": 497.20
+    },
+    {
+      "description": "POSITIVE PUSH PP44 MAG PELLET 25# (Item: 2030, UOM: 25#, Weight: 125 lbs)",
+      "quantity": 5.0,
+      "unit_price": 65.20,
+      "tax_rate": null,
+      "total": 326.00
+    },
+    {
+      "description": "RAMSEY SHOW LAMB/GOAT RATION 50# (Item: 9320-DX, UOM: 50#, Weight: 1,000 lbs)",
+      "quantity": 20.0,
+      "unit_price": 17.91,
+      "tax_rate": null,
+      "total": 358.20
+    },
+    {
+      "description": "SUPER BEEF DEVELOPER 50# (Item: 9773, UOM: 50#, Weight: 12,000 lbs)",
+      "quantity": 240.0,
+      "unit_price": 11.92,
+      "tax_rate": null,
+      "total": 2860.80
+    },
+    {
+      "description": "SUPERTONE SENIOR W/ APPLE 50# (Item: 8315A, UOM: 50#, Weight: 2,000 lbs)",
+      "quantity": 40.0,
+      "unit_price": 13.15,
+      "tax_rate": null,
+      "total": 526.00
+    },
+    {
+      "description": "SWEETLIX GOAT MEAT MAKER W/O 25# (Item: 8870, UOM: 25#, Weight: 125 lbs)",
+      "quantity": 5.0,
+      "unit_price": 23.18,
+      "tax_rate": null,
+      "total": 115.90
+    },
+    {
+      "description": "SPECIAL DISCOUNT (Item: 10.00, UOM: EACH)",
+      "quantity": -9.5,
+      "unit_price": 30.00,
+      "tax_rate": null,
+      "total": -285.00
+    },
+    {
+      "description": "FREIGHT",
+      "quantity": 1.0,
+      "unit_price": 1108.85,
+      "tax_rate": null,
+      "total": 1108.85
+    }
+  ],
+  "subtotal": 10178.53,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 10178.53,
+  "currency": "USD",
+  "payment_terms": "COD (Cash on Delivery)",
+  "notes": "Customer Number: 6025 | Order Number: 177 842 | Control Number: 129710 | Operator: PJ | Ship Date: December 05, 2025 at 01:02 PM (5 days before invoice) | Sales Person: WH | Via: Company Truck | Total Weight: 46,200 lbs | Customer alternate phone: (832) 445-8748 | Vendor toll-free: (800) 242-3500 | Vendor fax: (361) 275-2475 | Items Total before freight: $9,069.68 | Freight: $1,108.85 | Page count: 2 | Disclaimer: Damage/Short/Discrepancies must be reported within 7 days from delivery",
+  "confidence_score": 1.0
+}

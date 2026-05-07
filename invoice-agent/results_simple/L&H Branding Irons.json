@@ -1,0 +1,21 @@
+{
+  "invoice_number": "261008",
+  "invoice_date": "2025-10-22",
+  "vendor_name": "L&H Branding Irons",
+  "customer_name": "Last Chance Feed",
+  "line_items": [
+    {
+      "description": "Electric Branding Iron",
+      "item_number": "0303",
+      "quantity": 1.0,
+      "unit_price": 146.25
+    },
+    {
+      "description": "FREIGHT",
+      "item_number": null,
+      "quantity": 1.0,
+      "unit_price": 32.25
+    }
+  ],
+  "grand_total": 178.5
+}

@@ -1,0 +1,101 @@
+{
+  "invoice_number": "IN00980440",
+  "invoice_date": "2025-10-15",
+  "due_date": null,
+  "vendor": {
+    "name": "Kalmbach Feeds, Inc.",
+    "address": "7148 State Highway 199, Upper Sandusky, OH 43351",
+    "tax_id": null,
+    "email": "Invoicing@Kalmbachfeeds.com",
+    "phone": "419-294-3838"
+  },
+  "customer": {
+    "name": "Last Chance Feed & More LLC",
+    "address": "338 FM 2025 Rd, Cleveland, TX 77328",
+    "tax_id": null,
+    "email": "tward.lastchancefeed@gmail.com"
+  },
+  "line_items": [
+    {
+      "description": "AK Cotton Candy 25#",
+      "quantity": 4.0,
+      "unit_price": 13.53,
+      "tax_rate": null,
+      "total": 54.12
+    },
+    {
+      "description": "KALMBACH DEER BLOCK 20#",
+      "quantity": 20.0,
+      "unit_price": 7.42,
+      "tax_rate": null,
+      "total": 148.4
+    },
+    {
+      "description": "Goat Granola 20#",
+      "quantity": 5.0,
+      "unit_price": 9.52,
+      "tax_rate": null,
+      "total": 47.6
+    },
+    {
+      "description": "HenHouse Reserve 50#",
+      "quantity": 60.0,
+      "unit_price": 22.85,
+      "tax_rate": null,
+      "total": 1371.4
+    },
+    {
+      "description": "KALMBACH PREMIUM GOAT 25#",
+      "quantity": 10.0,
+      "unit_price": 9.32,
+      "tax_rate": null,
+      "total": 93.2
+    },
+    {
+      "description": "HHR Pumpkin Spice Seasonal",
+      "quantity": 20.0,
+      "unit_price": 9.98,
+      "tax_rate": null,
+      "total": 199.6
+    },
+    {
+      "description": "17% MILK MAKER GOAT PELLET",
+      "quantity": 40.0,
+      "unit_price": 12.68,
+      "tax_rate": null,
+      "total": 507.2
+    },
+    {
+      "description": "HenHouse Reserve",
+      "quantity": 2.0,
+      "unit_price": 15.25,
+      "tax_rate": null,
+      "total": 30.5
+    },
+    {
+      "description": "16% RABBIT NON-GMO COMPLETE",
+      "quantity": 4.0,
+      "unit_price": 17.64,
+      "tax_rate": null,
+      "total": 70.56
+    }
+  ],
+  "subtotal": 2522.58,
+  "tax_total": null,
+  "discount": 100.1,
+  "grand_total": 3230.59,
+  "currency": "USD",
+  "payment_terms": "4% ACH",
+  "notes": "Finance charge of 2% per month which is an annual percentage rate of 24% will be added to all invoices past due.",
+  "confidence_score": 0.92,
+  "validation_warnings": [],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2348,
+    "completion_tokens": 731,
+    "latency_ms": 7530.9,
+    "few_shot_count": 2
+  }
+}

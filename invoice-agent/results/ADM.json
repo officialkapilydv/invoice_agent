@@ -1,0 +1,50 @@
+{
+  "invoice_number": "8903203",
+  "invoice_date": "2025-08-04",
+  "due_date": "2025-08-04",
+  "vendor": {
+    "name": "ADM Animal Nutrition",
+    "address": null,
+    "tax_id": null,
+    "email": null,
+    "phone": "(800)217-2007"
+  },
+  "customer": {
+    "name": "LAST CHANCE FEED & MORE, LLC",
+    "address": "388 FM 2025 RD, CLEVELAND TX 77328",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "MOORMAN'S SHOWTEC LO FAT 15 BMD/DBZ",
+      "quantity": 50.0,
+      "unit_price": 24.4,
+      "tax_rate": null,
+      "total": 1220.0
+    }
+  ],
+  "subtotal": 1200.0,
+  "tax_total": 0.0,
+  "discount": 48.0,
+  "grand_total": 1152.0,
+  "currency": "USD",
+  "payment_terms": "4% ACH",
+  "notes": null,
+  "confidence_score": 0.92,
+  "validation_warnings": [
+    {
+      "field": "subtotal",
+      "message": "Sum of line items (1220.00) differs from subtotal (1200.0) by 20.00"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 2336,
+    "completion_tokens": 282,
+    "latency_ms": 1105.3,
+    "few_shot_count": 2
+  }
+}
