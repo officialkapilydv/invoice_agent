@@ -191,3 +191,40 @@ All tests mock the Groq API and PDF extractor — no real PDF or API key needed.
 ├── 📜 convert_all_to_simple.py       ← NEW! Bulk converter
 ├── 📜 migrate_to_chroma.py
 └── 📜 README.md
+
+
+📊 Complete File Structure After UI Build
+
+invoice-agent/
+├── api/                              ← NEW
+│   ├── main.py                       ← FastAPI app
+│   └── static/
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
+│
+├── data/
+│   ├── uploads/                      ← NEW! User-uploaded PDFs
+│   │   └── 20260507_113445_Bryant.pdf
+│   ├── sample_invoices/              ← Original 27 PDFs (untouched)
+│   ├── chroma_db/                    ← Vector memory (untouched)
+│   ├── extractions.db                ← SQLite (gets new entries)
+│   └── learned_rules.json            ← Pattern Library (untouched)
+│
+├── results/                          ← Full JSON outputs
+│   ├── Bryant.json                   ← UI uploads + CLI extractions
+│   ├── Cargil.json
+│   └── ... (27+ files, growing)
+│
+├── results_simple/                   ← Simplified JSON outputs
+│   ├── Bryant.json
+│   ├── Cargil.json
+│   └── ... (27+ files, growing)
+│
+├── corrections/                      ← Gold standard corrections
+│   └── 10 corrected JSON files
+│
+├── src/                              ← UNTOUCHED!
+├── tests/                            ← UNTOUCHED!
+├── main.py                           ← CLI (still works)
+└── ... (other files)
