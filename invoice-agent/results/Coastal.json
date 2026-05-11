@@ -1,37 +1,37 @@
 {
-  "invoice_number": "NET 133191",
+  "invoice_number": "306805",
   "invoice_date": "2025-07-01",
   "due_date": null,
   "vendor": {
-    "name": "COASTAL AGRICULTURAL SUPPLY NO. 306805",
-    "address": "1908 N KING ST, SEGUIN, TX 78155-2116",
+    "name": "Coastal Agricultural Supply",
+    "address": "1908 N King St, Seguin, TX 78155-2116",
     "tax_id": null,
     "email": null,
     "phone": "(830) 372-5560"
   },
   "customer": {
-    "name": "LAST CHANCE FEED & MORE",
-    "address": "388 FM 2025 RD, CLEVELAND, TX 77328",
+    "name": "Last Chance Feed & More",
+    "address": "388 FM 2025 Rd, Cleveland, TX 77328",
     "tax_id": null,
     "email": null
   },
   "line_items": [
     {
-      "description": "Agrilabs IVERM 1% 500ML (12)",
+      "description": "Agrilabs IVERM 1% 500ML (12) (Item: 325262H)",
       "quantity": 6.0,
       "unit_price": 59.64,
       "tax_rate": null,
       "total": 357.84
     },
     {
-      "description": "IVERMECTIN 1% Inj. 50ml (12)",
+      "description": "IVERMECTIN 1% Inj. 50ml (12) (Item: 325260D)",
       "quantity": 24.0,
       "unit_price": 28.13,
       "tax_rate": null,
       "total": 675.12
     },
     {
-      "description": "*FUEL CHARGE",
+      "description": "FUEL CHARGE (Item: FUEL)",
       "quantity": 1.0,
       "unit_price": 32.0,
       "tax_rate": null,
@@ -43,17 +43,23 @@
   "discount": 0.0,
   "grand_total": 1064.96,
   "currency": "USD",
-  "payment_terms": "DUE ON RECEIPT",
-  "notes": null,
-  "confidence_score": 0.92,
+  "payment_terms": "Due on receipt",
+  "notes": "Ship via: East Texas, Reference #: NET 133191, Doc #: 224990",
+  "confidence_score": 0.9,
   "validation_warnings": [],
   "raw_extraction_metadata": {
     "used_ocr": false,
     "page_count": 1,
     "model": "llama-3.3-70b-versatile",
-    "prompt_tokens": 2170,
-    "completion_tokens": 411,
-    "latency_ms": 961.6,
-    "few_shot_count": 2
+    "prompt_tokens": 7414,
+    "completion_tokens": 444,
+    "latency_ms": 1922.3,
+    "few_shot_count": 3,
+    "few_shot_sources": [
+      "correction",
+      "correction",
+      "correction"
+    ],
+    "rules_injected": 5
   }
 }

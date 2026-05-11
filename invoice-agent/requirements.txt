@@ -33,6 +33,11 @@ click>=8.1.7
 tenacity>=8.2.0
 rich>=13.0.0
 
+# Web API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.18
+
 # Testing
 pytest>=8.0.0
 pytest-mock>=3.12.0
