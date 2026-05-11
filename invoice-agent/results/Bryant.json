@@ -1,12 +1,12 @@
 {
-  "invoice_number": "1 -280886",
+  "invoice_number": "280886",
   "invoice_date": "2025-01-13",
   "due_date": null,
   "vendor": {
     "name": "BRYANT GRAIN COMPANY, INC.",
     "address": "P.O. Box 596, Aledo, TX 76008",
     "tax_id": null,
-    "email": null,
+    "email": "www.bryantgrain.com",
     "phone": "817-441-9782"
   },
   "customer": {
@@ -17,90 +17,100 @@
   },
   "line_items": [
     {
-      "description": "CORN CHOPS",
+      "description": "CORN CHOPS (Product Number: 2005, Unit: 50#)",
       "quantity": 120.0,
       "unit_price": 8.75,
       "tax_rate": null,
       "total": 1050.0
     },
     {
-      "description": "ALFALFA CUBES - MINI",
+      "description": "ALFALFA CUBES - MINI (Product Number: 7501, Unit: 50#)",
       "quantity": 40.0,
       "unit_price": 18.0,
       "tax_rate": null,
       "total": 720.0
     },
     {
-      "description": "COTTONSEED HULLS (45#)",
+      "description": "COTTONSEED HULLS (Product Number: 7513, Unit: 40#)",
       "quantity": 10.0,
       "unit_price": 15.2,
       "tax_rate": null,
       "total": 152.0
     },
     {
-      "description": "EQUINE ENERGY TEXTURED",
+      "description": "EQUINE ENERGY TEXTURED (Product Number: 3005, Unit: 50#)",
       "quantity": 80.0,
       "unit_price": 13.4,
       "tax_rate": null,
       "total": 1072.0
     },
     {
-      "description": "EAST TEXAS ALL-STOCK-5/32",
+      "description": "EAST TEXAS ALL-STOCK-5/32 (Product Number: 4101, Unit: 50#, PROGRAM: 25, CONTRACT: 3320)",
       "quantity": 120.0,
       "unit_price": 8.65,
       "tax_rate": null,
       "total": 1038.0
     },
     {
-      "description": "22% CHICK-GROW-LAYER-50#",
+      "description": "22% CHICK-GROW-LAYER-50# (Product Number: 5104-50, Unit: 50#)",
       "quantity": 80.0,
       "unit_price": 12.9,
       "tax_rate": null,
       "total": 1032.0
     },
     {
-      "description": "ALFA-MAX COMPLETE 14-6",
+      "description": "ALFA-MAX COMPLETE 14-6 (Product Number: 6610, CUSTOM - 5/32)",
       "quantity": 40.0,
       "unit_price": 17.5,
       "tax_rate": null,
       "total": 700.0
     },
     {
-      "description": "WOOD PALLETS",
+      "description": "WOOD PALLETS (Product Number: s001, Unit: EA)",
       "quantity": 12.0,
       "unit_price": 5.0,
       "tax_rate": null,
       "total": 60.0
     },
     {
-      "description": "WHOLESALE DISC",
+      "description": "11-21.99T WHOLESALE DISC (Product Number: DW11T, Unit: TON)",
       "quantity": 12.2,
       "unit_price": 3.0,
       "tax_rate": null,
       "total": 36.6
     }
   ],
-  "subtotal": 6309.6,
-  "tax_total": null,
-  "discount": null,
-  "grand_total": 6731.8,
+  "subtotal": 5787.4,
+  "tax_total": 0.0,
+  "discount": 0.0,
+  "grand_total": 6309.6,
   "currency": "USD",
-  "payment_terms": null,
-  "notes": null,
-  "confidence_score": 0.85,
+  "payment_terms": "BANK DRAFT",
+  "notes": "Order Number: 281192 | Total Tons: 12.200 | Total Freight Charge: $522.20 (added to subtotal to reach grand total) | Customer PO: DEL WOOD | Sales Rep: BRYANT GRAIN | Customer Bank Draft: 281-659-5973 | Ship Via: WOOD PALLETS",
+  "confidence_score": 1.0,
   "validation_warnings": [
     {
+      "field": "grand_total",
+      "message": "grand_total=6309.6 does not match subtotal(5787.4) + tax(0.0) - discount(0.0) = 5787.40 (difference: 522.20)"
+    },
+    {
       "field": "subtotal",
-      "message": "Sum of line items (5860.60) differs from subtotal (6309.6) by 449.00"
+      "message": "Sum of line items (5860.60) differs from subtotal (5787.4) by 73.20"
     }
   ],
   "raw_extraction_metadata": {
     "used_ocr": true,
     "page_count": 1,
     "model": "llama-3.3-70b-versatile",
-    "prompt_tokens": 2136,
-    "completion_tokens": 705,
-    "latency_ms": 1850.2,
-    "few_shot_count": 2
+    "prompt_tokens": 3957,
+    "completion_tokens": 927,
+    "latency_ms": 2200.1,
+    "few_shot_count": 3,
+    "few_shot_sources": [
+      "correction",
+      "correction",
+      "correction"
+    ],
+    "rules_injected": 5
   }
 }

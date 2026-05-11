@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Extraction Agent</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <span class="header-icon">&#128196;</span>
+    <h1>Invoice Extraction Agent</h1>
+  </header>
+
+  <main class="container">
+
+    <!-- Stats row -->
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-extractions">—</div>
+        <div class="stat-label">Extractions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-corrections">—</div>
+        <div class="stat-label">Corrections</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-rules">—</div>
+        <div class="stat-label">Learned Rules</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-confidence">—</div>
+        <div class="stat-label">Avg Confidence</div>
+      </div>
+    </div>
+
+    <!-- Upload card -->
+    <div class="card">
+      <div class="card-title">Upload Invoice PDF</div>
+
+      <div class="drop-zone" id="drop-zone">
+        <div class="drop-icon">&#128196;</div>
+        <div class="drop-text">
+          <strong>Drag &amp; drop a PDF here</strong><br>
+          or click to browse
+        </div>
+        <label class="btn-file">
+          Choose File
+          <input type="file" id="file-input" accept=".pdf" style="display:none">
+        </label>
+        <div class="selected-file" id="selected-file"></div>
+      </div>
+
+      <div class="options-row">
+        <label class="toggle-label">
+          <input type="checkbox" id="simple-toggle">
+          Simplified output &nbsp;<span style="color:var(--muted);font-size:.82rem">(invoice #, vendor, line items, grand total only)</span>
+        </label>
+        <button class="btn-extract" id="extract-btn" disabled>Extract</button>
+      </div>
+    </div>
+
+    <!-- Status bar -->
+    <div class="status-bar status-idle" id="status-bar">
+      Ready — drag a PDF onto the upload area or click Choose File.
+    </div>
+
+    <!-- Result section (hidden until extraction completes) -->
+    <div class="card" id="result-section" style="display:none">
+
+      <div class="result-header">
+        <span class="result-title" id="result-title"></span>
+        <span class="confidence-badge" id="confidence-badge"></span>
+      </div>
+
+      <div class="json-viewer">
+        <pre id="json-output"></pre>
+      </div>
+
+      <!-- Validation warnings -->
+      <div class="warnings-box" id="warnings-section" style="display:none">
+        <div class="warnings-title">Validation Warnings</div>
+        <ul id="warnings-list"></ul>
+      </div>
+
+      <!-- Saved paths -->
+      <div class="paths-section">
+        <div class="paths-title">Saved to</div>
+        <div id="saved-paths"></div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
