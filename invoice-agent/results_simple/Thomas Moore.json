@@ -57,13 +57,7 @@
       "item_number": null,
       "quantity": 1.0,
       "unit_price": 24.0
-    },
-    {
-      "description": "FREIGHT",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 378.0
     }
   ],
-  "grand_total": 6588.67
+  "grand_total": 6402.75
 }

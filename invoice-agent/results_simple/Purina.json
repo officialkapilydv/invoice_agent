@@ -135,13 +135,7 @@
       "item_number": "3003340-306",
       "quantity": 10.0,
       "unit_price": 20.03
-    },
-    {
-      "description": "HANDLING FEE EA",
-      "item_number": "NFPCHG",
-      "quantity": 216.0,
-      "unit_price": 0.4
     }
   ],
-  "grand_total": 7314.79
+  "grand_total": 7453.94
 }

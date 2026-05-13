@@ -131,23 +131,11 @@
       "unit_price": 90.0
     },
     {
-      "description": "Delivery Charge",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 564.69
-    },
-    {
-      "description": "Feed Fuel Surcharge 42%",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 237.03
-    },
-    {
       "description": "Feed Quantity Discount",
       "item_number": null,
       "quantity": 1.0,
       "unit_price": 86.05
     }
   ],
-  "grand_total": 10178.77
+  "grand_total": 9729.15
 }

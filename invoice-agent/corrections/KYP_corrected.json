@@ -1,0 +1,64 @@
+{
+  "invoice_number": "IVC1067716",
+  "invoice_date": "2025-12-05",
+  "due_date": null,
+  "vendor": {
+    "name": "Consumers Supply Distributing, LLC",
+    "address": "PO Box 1820, North Sioux City, SD 57049",
+    "tax_id": "45-3782648",
+    "email": null,
+    "phone": "712-255-6927"
+  },
+  "customer": {
+    "name": "4S FEED LLC",
+    "address": "120 E RAILROAD AVENUE, HAXTUN, CO 80731",
+    "tax_id": null,
+    "email": null,
+    "phone": "970-774-6116"
+  },
+  "line_items": [
+    {
+      "description": "FEEDING LIMESTONE - COARSE; 50LB (Item: M3625 / 32704625)",
+      "quantity": 50.0,
+      "unit_price": 6.00,
+      "tax_rate": null,
+      "total": 300.00
+    },
+    {
+      "description": "PLAIN SOY OIL MINI BULK 2,000LB (Item: FA5760 / 11113514)",
+      "quantity": 1.0,
+      "unit_price": 1960.00,
+      "tax_rate": null,
+      "total": 1960.00
+    },
+    {
+      "description": "EMPTY TOTE DEPOSIT-CHARGE $225/EA-DEPOSIT $200/EA (Item: FA5001 / 123)",
+      "quantity": 1.0,
+      "unit_price": 225.00,
+      "tax_rate": null,
+      "total": 225.00
+    },
+    {
+      "description": "LYSINE - NON-DOMESTIC - 98.5%; 25 KG (Item: V8654 / 202502101)",
+      "quantity": 3.0,
+      "unit_price": 54.57,
+      "tax_rate": null,
+      "total": 163.71
+    },
+    {
+      "description": "FREIGHT",
+      "quantity": 1.0,
+      "unit_price": 104.16,
+      "tax_rate": null,
+      "total": 104.16
+    }
+  ],
+  "subtotal": 2648.71,
+  "tax_total": 0,
+  "discount": 0,
+  "grand_total": 2752.87,
+  "currency": "USD",
+  "payment_terms": "ACH",
+  "notes": "Customer ID: 5678 | Salesperson: TODD BRIDGMAN | Shipping: CSD TRUCK | Master No: 11017073 | Freight: $104.16 (kept in full invoice, excluded from simplified output) | CRITICAL: Item 1 had Ordered=40 but Shipped=50, used SHIPPED=50 | Each item has primary + secondary code combined with ' / ' separator",
+  "confidence_score": 1.0
+}

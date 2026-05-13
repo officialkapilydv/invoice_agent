@@ -9,13 +9,7 @@
       "item_number": null,
       "quantity": 12.0,
       "unit_price": 50.0
-    },
-    {
-      "description": "Shipping - Ground Shipping - Ground",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 71.6
     }
   ],
-  "grand_total": 671.6
+  "grand_total": 600.0
 }

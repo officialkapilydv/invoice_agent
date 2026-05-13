@@ -45,13 +45,7 @@
       "item_number": null,
       "quantity": -0.02,
       "unit_price": null
-    },
-    {
-      "description": "LTL Shipping",
-      "item_number": null,
-      "quantity": 3.0,
-      "unit_price": 105.0
     }
   ],
-  "grand_total": 1911.23
+  "grand_total": 1662.75
 }
