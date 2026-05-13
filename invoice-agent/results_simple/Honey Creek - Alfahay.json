@@ -9,13 +9,7 @@
       "item_number": null,
       "quantity": 336.0,
       "unit_price": 9.5
-    },
-    {
-      "description": "Shipping",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 1800.0
     }
   ],
-  "grand_total": 4992.0
+  "grand_total": 3192.0
 }

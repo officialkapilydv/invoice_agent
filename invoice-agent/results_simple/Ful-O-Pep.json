@@ -96,16 +96,10 @@
     },
     {
       "description": "SPECIAL DISCOUNT",
-      "item_number": "10",
+      "item_number": "10.00",
       "quantity": -9.5,
       "unit_price": 30.0
-    },
-    {
-      "description": "FREIGHT",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 1108.85
     }
   ],
-  "grand_total": 10178.53
+  "grand_total": 9069.68
 }

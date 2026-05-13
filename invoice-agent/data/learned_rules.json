@@ -2,6 +2,20 @@
   "rules": [
     {
       "trigger": "",
+      "rule": "STRICT QUANTITY RULE: When invoice has both 'Ordered' and 'Shipped' columns, ALWAYS use the SHIPPED value, never ordered. Even abbreviated as 'Ord'/'Shp', use shipped. The shipped quantity is what was actually delivered and what the customer pays for. This rule is critical and overrides any other interpretation.",
+      "confidence": 0.99,
+      "support_count": 10,
+      "created_at": "2026-05-07T12:00:00.000000+00:00"
+    },
+    {
+      "trigger": "",
+      "rule": "MULTIPLE ITEM CODES: When a line item has TWO codes (primary code + secondary code on next row, like a lot/batch number), capture BOTH in description as '(Item: PRIMARY / SECONDARY)' with ' / ' separator. Example: '(Item: M3625 / 32704625)'. The simplify function will then extract this combined code into item_number. If only one code exists, use that single code without slash.",
+      "confidence": 0.95,
+      "support_count": 5,
+      "created_at": "2026-05-07T12:00:00.000000+00:00"
+    },
+    {
+      "trigger": "",
       "rule": "Item identifier fields can appear under various column labels: 'Product Number', 'Item Number', 'Item #', 'Material', 'SKU', 'Item Code', 'Part Number', 'Item ID', 'Product Code', 'Catalog Number'. ALWAYS extract the alphanumeric code from the leftmost column that uniquely identifies each product, regardless of the exact label used. Codes may be numeric (e.g., 2005, 7501), alphanumeric (e.g., 38716-50, B431XS), or letter-based (e.g., DW11T, NFPCHG).",
       "confidence": 0.95,
       "support_count": 5,
