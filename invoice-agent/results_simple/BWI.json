@@ -45,13 +45,7 @@
       "item_number": "FS121",
       "quantity": 2.0,
       "unit_price": 43.93
-    },
-    {
-      "description": "FUEL Surcharge",
-      "item_number": null,
-      "quantity": 1.0,
-      "unit_price": 14.94
     }
   ],
-  "grand_total": null
+  "grand_total": 693.53
 }

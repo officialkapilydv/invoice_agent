@@ -119,14 +119,19 @@ class Invoice(BaseModel):
 
 # Regex patterns to detect embedded item numbers in description strings.
 # Priority order matters — more specific patterns first.
-# e.g. "DEER PELLET 20 (Item: 9794, Pack: 50#)" → item_number="9794"
+# Capture group uses [^),]+ so it stops at ) or , — this naturally handles
+# both single codes ("Item: 9794") and multi-code slash format
+# ("Item: M3625 / 32704625") without needing separate patterns.
+# e.g. "DEER PELLET 20 (Item: 9794, Pack: 50#)"   → item_number="9794"
+# e.g. "LIMESTONE (Item: M3625 / 32704625, Unit:…)" → item_number="M3625 / 32704625"
 _ITEM_NUMBER_PATTERNS: list[re.Pattern[str]] = [
-    re.compile(r"\bItem(?:\s+(?:No|Number|#|ID))?[:\s]+([A-Z0-9\-]+)", re.IGNORECASE),
-    re.compile(r"\bSKU[:\s]+([A-Z0-9\-]+)", re.IGNORECASE),
-    re.compile(r"\bPart(?:\s+(?:No|Number|#))?[:\s]+([A-Z0-9\-]+)", re.IGNORECASE),
-    re.compile(r"\bProduct(?:\s+(?:No|Number|#|Code))?[:\s]+([A-Z0-9\-]+)", re.IGNORECASE),
-    re.compile(r"\bP/?N[:\s]+([A-Z0-9\-]+)", re.IGNORECASE),
-    re.compile(r"\bUPC[:\s]+([0-9]+)", re.IGNORECASE),
+    re.compile(r"\bItem(?:\s+(?:No|Number|#|ID|Code))?[:\s]+([^),]+)", re.IGNORECASE),
+    re.compile(r"\bSKU[:\s]+([^),]+)", re.IGNORECASE),
+    re.compile(r"\bPart(?:\s+(?:No|Number|#))?[:\s]+([^),]+)", re.IGNORECASE),
+    re.compile(r"\bProduct(?:\s+(?:No|Number|#|Code))?[:\s]+([^),]+)", re.IGNORECASE),
+    re.compile(r"\bMaterial(?:\s+(?:No|Number))?[:\s]+([^),]+)", re.IGNORECASE),
+    re.compile(r"\bP/?N[:\s]+([^),]+)", re.IGNORECASE),
+    re.compile(r"\bUPC[:\s]+([0-9\s/]+)", re.IGNORECASE),
     re.compile(r"#([A-Z0-9]{4,})\b"),   # bare hash prefix e.g. "#90210"
 ]
 
@@ -137,6 +142,67 @@ _DESCRIPTION_NOISE_PATTERN = re.compile(
     r"|\s*,\s*(?:Pack|Unit|Serial|Tracking|Lot)[:\s].*$",
     re.IGNORECASE | re.DOTALL,
 )
+
+# Freight / shipping / handling detection
+# Exact set: description IS just this word (case-insensitive)
+_FREIGHT_EXACT: frozenset[str] = frozenset(
+    {"freight", "shipping", "fuel", "handling", "delivery"}
+)
+# Substring set: description CONTAINS one of these phrases
+_FREIGHT_SUBSTRINGS: tuple[str, ...] = (
+    "freight",
+    "shipping",
+    "fuel charge",
+    "fuel surcharge",
+    "handling fee",
+    "delivery charge",
+    "transport charge",
+    "shipping & handling",
+    "ship charge",
+    "freight charge",
+    "shipping cost",
+    "freight cost",
+)
+
+
+def _is_freight_or_shipping(description: str | None) -> bool:
+    """Return True if the line item is a freight/shipping/fuel/handling charge."""
+    if not description:
+        return False
+    desc_lower = description.lower().strip()
+    if desc_lower in _FREIGHT_EXACT:
+        return True
+    return any(phrase in desc_lower for phrase in _FREIGHT_SUBSTRINGS)
+
+
+def _extract_item_number(raw_desc: str) -> tuple[str, str | None]:
+    """
+    Parse embedded item number from a description string and return
+    (cleaned_description, item_number).
+
+    Handles both single codes ("Item: 9794") and multi-code slash format
+    ("Item: M3625 / 32704625"). The [^),]+ capture group stops at ) or ,,
+    so trailing noise like ", Unit: 50LB" is never included. Trailing
+    whitespace from the capture is stripped.
+
+    Tries each pattern in _ITEM_NUMBER_PATTERNS in priority order.
+    Parenthetical noise blocks are stripped from the description regardless
+    of whether an item number was found.
+    """
+    item_number: str | None = None
+    for pattern in _ITEM_NUMBER_PATTERNS:
+        m = pattern.search(raw_desc)
+        if m:
+            item_number = m.group(1).strip()
+            if not item_number:         # guard against whitespace-only capture
+                item_number = None
+            break
+
+    clean_desc = _DESCRIPTION_NOISE_PATTERN.sub("", raw_desc).strip()
+    if len(clean_desc) < 3:
+        clean_desc = raw_desc.strip()
+
+    return clean_desc, item_number
 
 
 class SimplifiedLineItem(BaseModel):
@@ -177,48 +243,34 @@ def simplify_invoice(invoice: Invoice) -> SimplifiedInvoice:
     All learning-system side-effects (ChromaDB writes, rule matching)
     have already happened before this function is called.
 
-    Line item logic:
-      - item_number is parsed from the description string using a set of
-        regex patterns covering Item:, SKU:, Part No:, Product No:, etc.
-      - description is cleaned of the extracted item number and any
-        parenthetical noise blocks to keep it human-readable.
-      - quantity falls through from invoice.line_items[i].quantity.
-        The system prompt already instructs the LLM to prefer SHIPPED
-        quantity when both ordered and shipped columns exist, so no
-        additional logic is needed here.
-
-    Args:
-        invoice: A fully validated Invoice object.
-
-    Returns:
-        SimplifiedInvoice with only the fields defined above.
+    Key transformations applied here (not in the agent):
+      1. Freight / shipping / fuel / handling items are dropped entirely.
+      2. grand_total is CALCULATED as sum(quantity × unit_price) for the
+         remaining product items — the invoice's original grand_total is
+         ignored. This guarantees math self-consistency and removes freight
+         pollution, giving a pure product cost figure.
+      3. item_number is parsed from description strings via regex.
+      4. Descriptions are cleaned of parenthetical noise.
+      5. Items with null quantity are skipped (header/subtotal rows).
     """
-    simple_items: list[SimplifiedLineItem] = []
+    products: list[SimplifiedLineItem] = []
+    grand_total = 0.0
 
     for item in invoice.line_items:
         raw_desc = item.description or ""
-        item_number: str | None = None
 
-        # Try each pattern in priority order, stop at first match
-        for pattern in _ITEM_NUMBER_PATTERNS:
-            m = pattern.search(raw_desc)
-            if m:
-                item_number = m.group(1).strip()
-                break
-
-        # Clean description: remove parenthetical blocks and trailing noise
-        clean_desc = _DESCRIPTION_NOISE_PATTERN.sub("", raw_desc).strip()
-        # If cleaning left nothing useful, fall back to the raw description
-        if len(clean_desc) < 3:
-            clean_desc = raw_desc.strip()
-
-        qty = item.quantity
-        if qty is None:
-            # Skip items with no quantity — they're usually header/subtotal rows
-            # the LLM accidentally captured as line items
+        if _is_freight_or_shipping(raw_desc):
             continue
 
-        simple_items.append(
+        if item.quantity is None:
+            continue
+
+        clean_desc, item_number = _extract_item_number(raw_desc)
+        qty = float(item.quantity)
+        price = float(item.unit_price) if item.unit_price is not None else 0.0
+        grand_total += qty * price
+
+        products.append(
             SimplifiedLineItem(
                 description=clean_desc,
                 item_number=item_number,
@@ -232,6 +284,6 @@ def simplify_invoice(invoice: Invoice) -> SimplifiedInvoice:
         invoice_date=invoice.invoice_date,
         vendor_name=invoice.vendor.name if invoice.vendor else None,
         customer_name=invoice.customer.name if invoice.customer else None,
-        line_items=simple_items,
-        grand_total=invoice.grand_total,
+        line_items=products,
+        grand_total=round(grand_total, 2) if products else None,
     )

@@ -6,7 +6,7 @@
   "line_items": [
     {
       "description": "MOORMAN'S SHOWTEC LO FAT 15 BMD/DBZ",
-      "item_number": "15350PLME4",
+      "item_number": "#15350PLME4",
       "quantity": 50.0,
       "unit_price": 24.4
     },
@@ -17,5 +17,5 @@
       "unit_price": -20.0
     }
   ],
-  "grand_total": 1152.0
+  "grand_total": 1200.0
 }

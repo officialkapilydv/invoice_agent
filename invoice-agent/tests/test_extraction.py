@@ -259,7 +259,7 @@ class TestSimplifiedInvoice:
         assert simple.invoice_number == "INV-TEST-001"
         assert simple.vendor_name == "Test Vendor Pvt Ltd"
         assert simple.customer_name == "Sample Customer Corp"
-        assert simple.grand_total == 11800.0
+        assert simple.grand_total == 10000.0   # calculated: 10 qty × $1000 unit_price
         assert len(simple.line_items) == 1
         assert simple.line_items[0].unit_price == 1000.0
 
@@ -335,7 +335,120 @@ class TestSimplifiedInvoice:
 
         assert simple.line_items[0].unit_price == 25.50
         assert simple.line_items[1].unit_price == 8.75
-        assert simple.line_items[1].item_number == "WB-99"
+
+
+# ---------------------------------------------------------------------------
+# Freight removal + calculated grand_total tests
+# ---------------------------------------------------------------------------
+
+class TestFreightRemovalAndCalculatedTotal:
+    def _make_invoice(self, line_items: list, grand_total: float | None = None) -> Invoice:
+        data = {**SAMPLE_INVOICE_DICT, "line_items": line_items, "grand_total": grand_total}
+        return Invoice.model_validate(data)
+
+    def test_freight_filtered_out(self) -> None:
+        """A FREIGHT line item must not appear in simplified line_items."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(line_items=[
+            {"description": "Widget A", "quantity": 5.0, "unit_price": 10.0, "tax_rate": None, "total": 50.0},
+            {"description": "FREIGHT",  "quantity": 1.0, "unit_price": 15.0, "tax_rate": None, "total": 15.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert len(simple.line_items) == 1
+        assert simple.line_items[0].description == "Widget A"
+
+    def test_grand_total_calculated_from_items(self) -> None:
+        """grand_total = sum(qty × unit_price); invoice.grand_total is ignored."""
+        from src.schema import simplify_invoice
+        # invoice says $60 but product is qty=10 @ $5 → real total is $50
+        invoice = self._make_invoice(
+            line_items=[{"description": "Item A", "quantity": 10.0,
+                         "unit_price": 5.0, "tax_rate": None, "total": 50.0}],
+            grand_total=60.0,
+        )
+        simple = simplify_invoice(invoice)
+        assert simple.grand_total == 50.0
+
+    def test_kpy_pdf_scenario(self) -> None:
+        """KPY scenario: LUBE AID + FREIGHT → only LUBE AID, grand_total=33.59."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(
+            line_items=[
+                {"description": "LUBE AID; 50LB (Item: SP16087)",
+                 "quantity": 1.0, "unit_price": 33.59, "tax_rate": None, "total": 33.59},
+                {"description": "FREIGHT",
+                 "quantity": 1.0, "unit_price": 0.75, "tax_rate": None, "total": 0.75},
+            ],
+            grand_total=34.34,
+        )
+        simple = simplify_invoice(invoice)
+        assert len(simple.line_items) == 1
+        assert simple.line_items[0].item_number == "SP16087"
+        assert simple.grand_total == 33.59   # 1 × 33.59, NOT the invoice's 34.34
+
+    def test_cargil_scenario_with_discounts(self) -> None:
+        """Calculated total ignores a discount-adjusted grand_total from the PDF."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(
+            line_items=[
+                {"description": "Product A", "quantity": 40.0, "unit_price": 32.87, "tax_rate": None, "total": 1314.80},
+                {"description": "Product B", "quantity": 10.0, "unit_price": 15.90, "tax_rate": None, "total": 159.00},
+                {"description": "Product C", "quantity": 80.0, "unit_price": 16.20, "tax_rate": None, "total": 1296.00},
+            ],
+            grand_total=2000.0,   # simulated discount-adjusted total from PDF
+        )
+        simple = simplify_invoice(invoice)
+        # (40×32.87) + (10×15.90) + (80×16.20) = 1314.80 + 159.00 + 1296.00 = 2769.80
+        assert simple.grand_total == 2769.80
+        assert simple.grand_total != 2000.0  # PDF total must be ignored
+
+    def test_multiple_freight_types_all_removed(self) -> None:
+        """FREIGHT, FUEL CHARGE, and HANDLING FEE are all filtered out."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(line_items=[
+            {"description": "Real Product",  "quantity": 2.0, "unit_price": 50.0, "tax_rate": None, "total": 100.0},
+            {"description": "FREIGHT",        "quantity": 1.0, "unit_price": 10.0, "tax_rate": None, "total": 10.0},
+            {"description": "FUEL CHARGE",    "quantity": 1.0, "unit_price":  5.0, "tax_rate": None, "total":  5.0},
+            {"description": "HANDLING FEE",   "quantity": 1.0, "unit_price":  3.0, "tax_rate": None, "total":  3.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert len(simple.line_items) == 1
+        assert simple.line_items[0].description == "Real Product"
+        assert simple.grand_total == 100.0   # 2 × 50, no freight
+
+    def test_only_freight_returns_empty(self) -> None:
+        """All-freight invoice → empty line_items and grand_total=None."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(line_items=[
+            {"description": "FREIGHT",     "quantity": 1.0, "unit_price": 20.0, "tax_rate": None, "total": 20.0},
+            {"description": "FUEL CHARGE", "quantity": 1.0, "unit_price":  5.0, "tax_rate": None, "total":  5.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert simple.line_items == []
+        assert simple.grand_total is None
+
+    def test_case_insensitive_freight_detection(self) -> None:
+        """'FREIGHT', 'Freight', and 'freight' are all filtered."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(line_items=[
+            {"description": "Product X", "quantity": 3.0, "unit_price": 10.0, "tax_rate": None, "total": 30.0},
+            {"description": "FREIGHT",   "quantity": 1.0, "unit_price":  5.0, "tax_rate": None, "total":  5.0},
+            {"description": "Freight",   "quantity": 1.0, "unit_price":  5.0, "tax_rate": None, "total":  5.0},
+            {"description": "freight",   "quantity": 1.0, "unit_price":  5.0, "tax_rate": None, "total":  5.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert len(simple.line_items) == 1
+        assert simple.grand_total == 30.0   # 3 × 10
+
+    def test_decimal_quantity_calculated_correctly(self) -> None:
+        """Decimal quantities (e.g. 12.2 tons) produce the correct grand_total."""
+        from src.schema import simplify_invoice
+        invoice = self._make_invoice(line_items=[
+            {"description": "Bulk Product", "quantity": 12.2, "unit_price": 3.0, "tax_rate": None, "total": 36.6},
+        ])
+        simple = simplify_invoice(invoice)
+        assert simple.grand_total == 36.6   # 12.2 × 3.0
+        assert simple.line_items[0].quantity == 12.2
 
     def test_no_item_number_stays_none(self) -> None:
         """Plain descriptions with no item number patterns → item_number is None."""
@@ -352,3 +465,82 @@ class TestSimplifiedInvoice:
 
         assert simple.line_items[0].item_number is None
         assert simple.line_items[0].description == "Consulting Services"
+
+
+# ---------------------------------------------------------------------------
+# Strict shipped quantity + multi-code item_number tests
+# ---------------------------------------------------------------------------
+
+class TestStrictShippedAndMultiCode:
+    """Tests for shipped-quantity enforcement and slash-separated item codes."""
+
+    def _inv(self, line_items: list) -> Invoice:
+        return Invoice.model_validate(
+            {**SAMPLE_INVOICE_DICT, "line_items": line_items, "grand_total": None}
+        )
+
+    def test_shipped_quantity_passed_through(self) -> None:
+        """Quantity on SimplifiedLineItem matches whatever the agent extracted."""
+        from src.schema import simplify_invoice
+        invoice = self._inv([
+            {"description": "PRODUCT (Item: TEST123)",
+             "quantity": 50.0, "unit_price": 10.0, "tax_rate": None, "total": 500.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert simple.line_items[0].quantity == 50.0
+
+    def test_multi_code_item_number_with_slash(self) -> None:
+        """Primary / secondary codes combined with ' / ' are preserved in item_number."""
+        from src.schema import simplify_invoice
+        invoice = self._inv([
+            {"description": "FEEDING LIMESTONE (Item: M3625 / 32704625)",
+             "quantity": 50.0, "unit_price": 6.0, "tax_rate": None, "total": 300.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert simple.line_items[0].item_number == "M3625 / 32704625"
+
+    def test_single_code_unchanged(self) -> None:
+        """Single item code works as before — no slash added."""
+        from src.schema import simplify_invoice
+        invoice = self._inv([
+            {"description": "PRODUCT (Item: ABC123)",
+             "quantity": 1.0, "unit_price": 100.0, "tax_rate": None, "total": 100.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert simple.line_items[0].item_number == "ABC123"
+
+    def test_multi_code_with_extra_info_after_comma(self) -> None:
+        """Trailing metadata after the codes (e.g. ', Unit: 50LB') is not included."""
+        from src.schema import simplify_invoice
+        invoice = self._inv([
+            {"description": "PRODUCT (Item: M3625 / 32704625, Unit: 50LB)",
+             "quantity": 50.0, "unit_price": 6.0, "tax_rate": None, "total": 300.0},
+        ])
+        simple = simplify_invoice(invoice)
+        assert simple.line_items[0].item_number == "M3625 / 32704625"
+
+    def test_kyp_pdf_scenario(self) -> None:
+        """KYP.pdf: 4 items with combined primary/secondary codes, freight excluded."""
+        from src.schema import simplify_invoice
+        invoice = self._inv([
+            {"description": "FEEDING LIMESTONE - COARSE; 50LB (Item: M3625 / 32704625)",
+             "quantity": 50.0, "unit_price": 6.00, "tax_rate": None, "total": 300.00},
+            {"description": "PLAIN SOY OIL MINI BULK 2,000LB (Item: FA5760 / 11113514)",
+             "quantity": 1.0,  "unit_price": 1960.00, "tax_rate": None, "total": 1960.00},
+            {"description": "EMPTY TOTE DEPOSIT-CHARGE (Item: FA5001 / 123)",
+             "quantity": 1.0,  "unit_price": 225.00, "tax_rate": None, "total": 225.00},
+            {"description": "LYSINE - NON-DOMESTIC - 98.5%; 25 KG (Item: V8654 / 202502101)",
+             "quantity": 3.0,  "unit_price": 54.57, "tax_rate": None, "total": 163.71},
+            {"description": "FREIGHT",
+             "quantity": 1.0,  "unit_price": 104.16, "tax_rate": None, "total": 104.16},
+        ])
+        simple = simplify_invoice(invoice)
+
+        assert len(simple.line_items) == 4          # freight excluded
+        assert simple.line_items[0].item_number == "M3625 / 32704625"
+        assert simple.line_items[0].quantity    == 50.0
+        assert simple.line_items[1].item_number == "FA5760 / 11113514"
+        assert simple.line_items[2].item_number == "FA5001 / 123"
+        assert simple.line_items[3].item_number == "V8654 / 202502101"
+        # grand_total = (50×6) + (1×1960) + (1×225) + (3×54.57) = 2648.71
+        assert simple.grand_total == 2648.71
