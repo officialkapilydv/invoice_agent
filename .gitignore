@@ -5,3 +5,8 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+
+# Database files - runtime generated, not for version control
+invoice-agent/data/chroma_db/
+invoice-agent/data/extractions.db
+invoice-agent/data/uploads/
