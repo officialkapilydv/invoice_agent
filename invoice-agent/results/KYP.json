@@ -1,0 +1,88 @@
+{
+  "invoice_number": "IVC1067716",
+  "invoice_date": "2025-12-05",
+  "due_date": null,
+  "vendor": {
+    "name": "Consumers Supply Distributing, LLC",
+    "address": "5101 Harbor Drive, Sioux City, IA 51111",
+    "tax_id": "45-3782648",
+    "email": null,
+    "phone": "712-255-6927"
+  },
+  "customer": {
+    "name": "4S FEED LLC",
+    "address": "120 E RAILROAD AVENUE, HAXTUN, CO 80731",
+    "tax_id": null,
+    "email": null
+  },
+  "line_items": [
+    {
+      "description": "FEEDING LIMESTONE - COARSE (Item: M3625 / 32704625)",
+      "quantity": 50.0,
+      "unit_price": 6.0,
+      "tax_rate": null,
+      "total": 300.0
+    },
+    {
+      "description": "PLAIN SOY OIL MINI BULK (Item: FA5760 / 11113514)",
+      "quantity": 1.0,
+      "unit_price": 1960.0,
+      "tax_rate": null,
+      "total": 1960.0
+    },
+    {
+      "description": "EMPTY TOTE DEPOSIT-CHARGE (Item: FA5001)",
+      "quantity": 1.0,
+      "unit_price": 225.0,
+      "tax_rate": null,
+      "total": 225.0
+    },
+    {
+      "description": "LYSINE - NON-DOMESTIC - 98.5% (Item: V8654 / 202502101)",
+      "quantity": 3.0,
+      "unit_price": 54.57,
+      "tax_rate": null,
+      "total": 163.71
+    },
+    {
+      "description": "FREIGHT",
+      "quantity": 1.0,
+      "unit_price": 104.16,
+      "tax_rate": null,
+      "total": 104.16
+    }
+  ],
+  "subtotal": 2588.71,
+  "tax_total": 0.0,
+  "discount": 0.0,
+  "grand_total": 2692.87,
+  "currency": "USD",
+  "payment_terms": "ACH, Payments received after 30 days from the date of the invoice will accrue interest at 1.5% per month.",
+  "notes": "Purchase Order: 5678, Customer ID: null, Salesperson ID: TODD BRIDGMAN, Shipping Method: CSD TRUCK, Req Ship Date: 12/4/2025, Master No: 11017073",
+  "confidence_score": 0.9,
+  "validation_warnings": [
+    {
+      "field": "grand_total",
+      "message": "grand_total=2692.87 does not match subtotal(2588.71) + tax(0.0) - discount(0.0) = 2588.71 (difference: 104.16)"
+    },
+    {
+      "field": "subtotal",
+      "message": "Sum of line items (2752.87) differs from subtotal (2588.71) by 164.16"
+    }
+  ],
+  "raw_extraction_metadata": {
+    "used_ocr": false,
+    "page_count": 1,
+    "model": "llama-3.3-70b-versatile",
+    "prompt_tokens": 5112,
+    "completion_tokens": 634,
+    "latency_ms": 2397.2,
+    "few_shot_count": 3,
+    "few_shot_sources": [
+      "correction",
+      "correction",
+      "correction"
+    ],
+    "rules_injected": 5
+  }
+}
