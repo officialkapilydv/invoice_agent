@@ -5,25 +5,25 @@
   "customer_name": "4S FEED LLC",
   "line_items": [
     {
-      "description": "FEEDING LIMESTONE - COARSE; 50LB",
+      "description": "FEEDING LIMESTONE - COARSE",
       "item_number": "M3625 / 32704625",
       "quantity": 50.0,
       "unit_price": 6.0
     },
     {
-      "description": "PLAIN SOY OIL MINI BULK 2,000LB",
+      "description": "PLAIN SOY OIL MINI BULK",
       "item_number": "FA5760 / 11113514",
       "quantity": 1.0,
       "unit_price": 1960.0
     },
     {
-      "description": "EMPTY TOTE DEPOSIT-CHARGE $225/EA-DEPOSIT $200/EA",
-      "item_number": "FA5001 / 123",
+      "description": "EMPTY TOTE DEPOSIT-CHARGE",
+      "item_number": "FA5001",
       "quantity": 1.0,
       "unit_price": 225.0
     },
     {
-      "description": "LYSINE - NON-DOMESTIC - 98.5%; 25 KG",
+      "description": "LYSINE - NON-DOMESTIC - 98.5%",
       "item_number": "V8654 / 202502101",
       "quantity": 3.0,
       "unit_price": 54.57
